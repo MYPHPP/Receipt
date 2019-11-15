@@ -1,0 +1,5093 @@
+---------------------------------------------------------------
+[ 2019-11-14T17:13:54+08:00 ] 192.168.33.1 GET local.receipt.com/
+[运行时间：1.071767s] [吞吐率：0.93req/s] [内存消耗：2,663.40kb] [文件加载：70]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:14:32+08:00 ] 192.168.33.1 GET local.receipt.com/
+[运行时间：1.054272s] [吞吐率：0.95req/s] [内存消耗：2,663.41kb] [文件加载：70]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:15:53+08:00 ] 192.168.33.1 GET local.receipt.com/
+[运行时间：1.036241s] [吞吐率：0.97req/s] [内存消耗：2,663.41kb] [文件加载：70]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:24:33+08:00 ] 192.168.33.1 GET local.receipt.com/
+[运行时间：1.142694s] [吞吐率：0.88req/s] [内存消耗：3,849.03kb] [文件加载：81]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /vagrant_www/receipt/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:48:45+08:00 ] 192.168.33.1 GET local.receipt.com/
+[运行时间：1.191179s] [吞吐率：0.84req/s] [内存消耗：3,895.10kb] [文件加载：80]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /vagrant_www/receipt/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ../template/default/index/index.html [ array (
+  0 => 'user',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'banner',
+  4 => 'task',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:48:47+08:00 ] 192.168.33.1 GET local.receipt.com/uploads/20191108/571fcc4219263dd3d593cfc5a274a7fd.png
+[运行时间：0.810469s] [吞吐率：1.23req/s] [内存消耗：2,262.57kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20191108',
+    2 => '571fcc4219263dd3d593cfc5a274a7fd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:48:47+08:00 ] 192.168.33.1 GET local.receipt.com/uploads/20191108/f9f72b7431f1d373d5a7d04e6bac2db9.png
+[运行时间：0.822974s] [吞吐率：1.22req/s] [内存消耗：2,262.57kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20191108',
+    2 => 'f9f72b7431f1d373d5a7d04e6bac2db9',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:49:00+08:00 ] 192.168.33.1 GET local.receipt.com/
+[运行时间：1.551668s] [吞吐率：0.64req/s] [内存消耗：3,895.41kb] [文件加载：80]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /vagrant_www/receipt/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ../template/default/index/index.html [ array (
+  0 => 'user',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'banner',
+  4 => 'task',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:49:01+08:00 ] 192.168.33.1 GET local.receipt.com/uploads/20191108/571fcc4219263dd3d593cfc5a274a7fd.png
+[运行时间：1.067848s] [吞吐率：0.94req/s] [内存消耗：2,263.09kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20191108',
+    2 => '571fcc4219263dd3d593cfc5a274a7fd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:49:01+08:00 ] 192.168.33.1 GET local.receipt.com/uploads/20191108/f9f72b7431f1d373d5a7d04e6bac2db9.png
+[运行时间：1.065584s] [吞吐率：0.94req/s] [内存消耗：2,263.09kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20191108',
+    2 => 'f9f72b7431f1d373d5a7d04e6bac2db9',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:49:04+08:00 ] 192.168.33.1 GET local.receipt.com/task
+[运行时间：1.220072s] [吞吐率：0.82req/s] [内存消耗：4,065.02kb] [文件加载：82]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'task',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Index->task[ /vagrant_www/receipt/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ../template/default/index/task-list.html [ array (
+  0 => 'user',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'top',
+  4 => 'task',
+  5 => 'type',
+  6 => 'column',
+  7 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:49:12+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：0.853031s] [吞吐率：1.17req/s] [内存消耗：3,299.12kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:49:38+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：0.735647s] [吞吐率：1.36req/s] [内存消耗：3,298.80kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:49:46+08:00 ] 192.168.33.1 GET local.receipt.com/admin/index/index
+[运行时间：0.449233s] [吞吐率：2.23req/s] [内存消耗：2,257.10kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:50:08+08:00 ] 192.168.33.1 GET local.receipt.com/admin/menu/index
+[运行时间：1.010199s] [吞吐率：0.99req/s] [内存消耗：3,309.05kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:50:14+08:00 ] 192.168.33.1 GET local.receipt.com/admin/menu/index
+[运行时间：1.202512s] [吞吐率：0.83req/s] [内存消耗：3,309.38kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menu',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:50:22+08:00 ] 192.168.33.1 GET local.receipt.com/admin/login/index
+[运行时间：0.686029s] [吞吐率：1.46req/s] [内存消耗：3,298.63kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:50:39+08:00 ] 192.168.33.1 GET local.receipt.com/admin/login/login
+[运行时间：0.431831s] [吞吐率：2.32req/s] [内存消耗：2,257.10kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:51:21+08:00 ] 192.168.33.1 GET local.receipt.com/login/login
+[运行时间：1.154653s] [吞吐率：0.87req/s] [内存消耗：3,749.75kb] [文件加载：78]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Login->index[ /vagrant_www/receipt/application/home/controller/Login.php ]
+[ info ] [ VIEW ] ../template/default/login/index.html [ array (
+  0 => 'user',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:52:14+08:00 ] 192.168.33.1 GET local.receipt.com/admin/admin/role
+[运行时间：0.933814s] [吞吐率：1.07req/s] [内存消耗：3,340.79kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:54:05+08:00 ] 192.168.33.1 GET local.receipt.com/admin/admin/role
+[运行时间：0.959409s] [吞吐率：1.04req/s] [内存消耗：2,470.94kb] [文件加载：62]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:54:26+08:00 ] 192.168.33.1 GET local.receipt.com/admin/admin/role
+[运行时间：1.066305s] [吞吐率：0.94req/s] [内存消耗：3,333.86kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:54:48+08:00 ] 192.168.33.1 GET local.receipt.com/admin/admin/role
+[运行时间：0.850059s] [吞吐率：1.18req/s] [内存消耗：3,306.58kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:55:19+08:00 ] 192.168.33.1 GET local.receipt.com/admin/admin/role
+[运行时间：1.246285s] [吞吐率：0.80req/s] [内存消耗：3,340.61kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:55:44+08:00 ] 192.168.33.1 GET local.receipt.com/admin/login/login
+[运行时间：0.824732s] [吞吐率：1.21req/s] [内存消耗：2,257.10kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:56:17+08:00 ] 192.168.33.1 GET local.receipt.com/admin/login/login
+[运行时间：0.718162s] [吞吐率：1.39req/s] [内存消耗：2,257.23kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:03:59+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：1.271082s] [吞吐率：0.79req/s] [内存消耗：3,298.48kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:04:07+08:00 ] 192.168.33.1 GET local.receipt.com/admin/login
+[运行时间：1.364842s] [吞吐率：0.73req/s] [内存消耗：3,298.56kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:04:14+08:00 ] 192.168.33.1 GET local.receipt.com/admin/login/login
+[运行时间：0.704968s] [吞吐率：1.42req/s] [内存消耗：2,257.10kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:04:51+08:00 ] 192.168.33.1 GET local.receipt.com/admin/login/login
+[运行时间：0.809918s] [吞吐率：1.23req/s] [内存消耗：2,257.23kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:04:56+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：1.148237s] [吞吐率：0.87req/s] [内存消耗：3,298.78kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:05:47+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：1.060334s] [吞吐率：0.94req/s] [内存消耗：3,264.27kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:06:13+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：0.955037s] [吞吐率：1.05req/s] [内存消耗：3,298.86kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:06:21+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：0.954501s] [吞吐率：1.05req/s] [内存消耗：3,298.86kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:06:36+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：0.974087s] [吞吐率：1.03req/s] [内存消耗：3,264.27kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:06:46+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：1.477759s] [吞吐率：0.68req/s] [内存消耗：3,298.86kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:09:01+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：1.184094s] [吞吐率：0.84req/s] [内存消耗：3,593.73kb] [文件加载：75]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:09:02+08:00 ] 192.168.33.1 GET local.receipt.com/ccwmage
+[运行时间：1.013481s] [吞吐率：0.99req/s] [内存消耗：3,732.45kb] [文件加载：76]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /vagrant_www/receipt/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:09:03+08:00 ] 192.168.33.1 GET local.receipt.com/captcha
+[运行时间：0.787502s] [吞吐率：1.27req/s] [内存消耗：2,274.58kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/ccwmage',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /vagrant_www/receipt/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:09:26+08:00 ] 192.168.33.1 GET local.receipt.com/ccwmage
+[运行时间：0.869986s] [吞吐率：1.15req/s] [内存消耗：3,369.21kb] [文件加载：74]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /vagrant_www/receipt/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:09:27+08:00 ] 192.168.33.1 GET local.receipt.com/captcha
+[运行时间：0.672181s] [吞吐率：1.49req/s] [内存消耗：2,274.70kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/ccwmage',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /vagrant_www/receipt/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:09:35+08:00 ] 192.168.33.1 GET local.receipt.com/
+[运行时间：1.189911s] [吞吐率：0.84req/s] [内存消耗：3,895.78kb] [文件加载：80]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /vagrant_www/receipt/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ../template/default/index/index.html [ array (
+  0 => 'user',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'banner',
+  4 => 'task',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:09:36+08:00 ] 192.168.33.1 GET local.receipt.com/uploads/20191108/f9f72b7431f1d373d5a7d04e6bac2db9.png
+[运行时间：0.728505s] [吞吐率：1.37req/s] [内存消耗：2,262.57kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20191108',
+    2 => 'f9f72b7431f1d373d5a7d04e6bac2db9',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:09:36+08:00 ] 192.168.33.1 GET local.receipt.com/uploads/20191108/571fcc4219263dd3d593cfc5a274a7fd.png
+[运行时间：0.947657s] [吞吐率：1.06req/s] [内存消耗：2,262.57kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20191108',
+    2 => '571fcc4219263dd3d593cfc5a274a7fd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:09:40+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：0.610832s] [吞吐率：1.64req/s] [内存消耗：3,299.48kb] [文件加载：71]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:10:33+08:00 ] 192.168.33.1 GET local.receipt.com/ccwmage
+[运行时间：0.779724s] [吞吐率：1.28req/s] [内存消耗：3,368.88kb] [文件加载：74]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /vagrant_www/receipt/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/login/login.html [ array (
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:10:34+08:00 ] 192.168.33.1 GET local.receipt.com/captcha
+[运行时间：0.476302s] [吞吐率：2.10req/s] [内存消耗：2,274.70kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/ccwmage',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /vagrant_www/receipt/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:13:45+08:00 ] 192.168.33.1 POST local.receipt.com/ccwmage
+[运行时间：0.992323s] [吞吐率：1.01req/s] [内存消耗：3,284.62kb] [文件加载：70]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/ccwmage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.receipt.com',
+  'accept' => '*/*',
+  'content-length' => '33',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+)
+[ info ] [ PARAM ] array (
+  'pwd' => 'admin',
+  'name' => 'admin',
+  'captcha' => 'cxum',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /vagrant_www/receipt/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:13:46+08:00 ] 192.168.33.1 GET local.receipt.com/captcha?id=1573726425
+[运行时间：0.551643s] [吞吐率：1.81req/s] [内存消耗：2,275.24kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/ccwmage',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /vagrant_www/receipt/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:13:56+08:00 ] 192.168.33.1 POST local.receipt.com/ccwmage
+[运行时间：0.993588s] [吞吐率：1.01req/s] [内存消耗：3,594.81kb] [文件加载：74]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/ccwmage',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.receipt.com',
+  'accept' => '*/*',
+  'content-length' => '34',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+)
+[ info ] [ PARAM ] array (
+  'pwd' => '123456',
+  'name' => 'admin',
+  'captcha' => 'jfc8',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ /vagrant_www/receipt/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:00+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：1.595815s] [吞吐率：0.63req/s] [内存消耗：4,121.41kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/ccwmage',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/index.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:02+08:00 ] 192.168.33.1 GET local.receipt.com/static/bootstrap/img/loading.gif
+[运行时间：0.723133s] [吞吐率：1.38req/s] [内存消耗：2,262.53kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/static/bootstrap/css/fileinput.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:03+08:00 ] 192.168.33.1 GET local.receipt.com/admin/index/welcome
+[运行时间：1.722158s] [吞吐率：0.58req/s] [内存消耗：4,254.13kb] [文件加载：84]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/welcome.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'data',
+  5 => 'sys_sum',
+  6 => 'cash_sum',
+  7 => 'sys_money',
+  8 => 'order_sum',
+  9 => 'order_pass',
+  10 => 'order_offpass',
+  11 => 'order_today',
+  12 => 'order_today_pass',
+  13 => 'order_today_offpass',
+  14 => 'order_today_onpass',
+  15 => 'order_today_money',
+  16 => 'cash_today_onpass',
+  17 => 'order_stoday',
+  18 => 'order_stoday_pass',
+  19 => 'order_stoday_offpass',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:04+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/TweenMax.min.js
+[运行时间：1.121420s] [吞吐率：0.89req/s] [内存消耗：2,262.96kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:04+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/index.js
+[运行时间：1.097735s] [吞吐率：0.91req/s] [内存消耗：2,262.92kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:04+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/jquery.min(1).js
+[运行时间：1.210131s] [吞吐率：0.83req/s] [内存消耗：2,262.99kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:05+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/TweenMax.min.js
+[运行时间：0.364192s] [吞吐率：2.75req/s] [内存消耗：2,262.96kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:05+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/index.js
+[运行时间：0.315352s] [吞吐率：3.17req/s] [内存消耗：2,262.92kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:19+08:00 ] 192.168.33.1 GET local.receipt.com/admin/orders/index
+[运行时间：0.975769s] [吞吐率：1.02req/s] [内存消耗：4,139.20kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Orders->index[ /vagrant_www/receipt/application/admin/controller/Orders.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/orders/order-list.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:21+08:00 ] 192.168.33.1 POST local.receipt.com/admin/orders/index
+[运行时间：0.766960s] [吞吐率：1.30req/s] [内存消耗：4,015.48kb] [文件加载：81]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/orders/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.receipt.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '90',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Orders->index[ /vagrant_www/receipt/application/admin/controller/Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:23+08:00 ] 192.168.33.1 GET local.receipt.com/admin/users/index
+[运行时间：0.972584s] [吞吐率：1.03req/s] [内存消耗：4,142.58kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ /vagrant_www/receipt/application/admin/controller/Users.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/users/user-list.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:14:24+08:00 ] 192.168.33.1 POST local.receipt.com/admin/users/index
+[运行时间：0.777664s] [吞吐率：1.29req/s] [内存消耗：4,009.55kb] [文件加载：81]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/users/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.receipt.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '90',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Users->index[ /vagrant_www/receipt/application/admin/controller/Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:15:44+08:00 ] 192.168.33.1 GET local.receipt.com/
+[运行时间：1.222682s] [吞吐率：0.82req/s] [内存消耗：3,896.74kb] [文件加载：80]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.33.181:8888/site',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /vagrant_www/receipt/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ../template/default/index/index.html [ array (
+  0 => 'user',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'banner',
+  4 => 'task',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:15:45+08:00 ] 192.168.33.1 GET local.receipt.com/uploads/20191108/f9f72b7431f1d373d5a7d04e6bac2db9.png
+[运行时间：0.692205s] [吞吐率：1.44req/s] [内存消耗：2,263.32kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20191108',
+    2 => 'f9f72b7431f1d373d5a7d04e6bac2db9',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:15:45+08:00 ] 192.168.33.1 GET local.receipt.com/uploads/20191108/571fcc4219263dd3d593cfc5a274a7fd.png
+[运行时间：0.694891s] [吞吐率：1.44req/s] [内存消耗：2,263.32kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20191108',
+    2 => '571fcc4219263dd3d593cfc5a274a7fd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:15:52+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：0.865798s] [吞吐率：1.16req/s] [内存消耗：3,981.95kb] [文件加载：77]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/index.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:15:53+08:00 ] 192.168.33.1 GET local.receipt.com/static/bootstrap/img/loading.gif
+[运行时间：0.576582s] [吞吐率：1.73req/s] [内存消耗：2,263.23kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/static/bootstrap/css/fileinput.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:15:53+08:00 ] 192.168.33.1 GET local.receipt.com/admin/index/welcome
+[运行时间：1.033727s] [吞吐率：0.97req/s] [内存消耗：4,089.89kb] [文件加载：82]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726442',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/welcome.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'data',
+  5 => 'sys_sum',
+  6 => 'cash_sum',
+  7 => 'sys_money',
+  8 => 'order_sum',
+  9 => 'order_pass',
+  10 => 'order_offpass',
+  11 => 'order_today',
+  12 => 'order_today_pass',
+  13 => 'order_today_offpass',
+  14 => 'order_today_onpass',
+  15 => 'order_today_money',
+  16 => 'cash_today_onpass',
+  17 => 'order_stoday',
+  18 => 'order_stoday_pass',
+  19 => 'order_stoday_offpass',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:15:54+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/jquery.min(1).js
+[运行时间：0.595601s] [吞吐率：1.68req/s] [内存消耗：2,262.99kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:15:54+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/TweenMax.min.js
+[运行时间：0.700709s] [吞吐率：1.43req/s] [内存消耗：2,262.96kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:15:54+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/index.js
+[运行时间：0.669067s] [吞吐率：1.49req/s] [内存消耗：2,262.92kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:15:57+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/index
+[运行时间：1.071978s] [吞吐率：0.93req/s] [内存消耗：4,151.38kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->index[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-list.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:15:58+08:00 ] 192.168.33.1 POST local.receipt.com/admin/tasks/index
+[运行时间：0.839637s] [吞吐率：1.19req/s] [内存消耗：4,007.14kb] [文件加载：81]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.receipt.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '90',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->index[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:02+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask
+[运行时间：1.374720s] [吞吐率：0.73req/s] [内存消耗：4,187.47kb] [文件加载：81]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:03+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.6729616682615844
+[运行时间：0.765743s] [吞吐率：1.31req/s] [内存消耗：4,018.91kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_6729616682615844' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:11+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.19298056646727169
+[运行时间：0.524672s] [吞吐率：1.91req/s] [内存消耗：4,018.94kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_19298056646727169' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:11+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：0.405314s] [吞吐率：2.47req/s] [内存消耗：3,982.15kb] [文件加载：77]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/index.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:14+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：0.924882s] [吞吐率：1.08req/s] [内存消耗：3,982.15kb] [文件加载：77]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/index.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:21+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.3933383168242546
+[运行时间：0.475782s] [吞吐率：2.10req/s] [内存消耗：4,018.91kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_3933383168242546' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:26+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：1.557199s] [吞吐率：0.64req/s] [内存消耗：3,981.95kb] [文件加载：77]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/index.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:27+08:00 ] 192.168.33.1 GET local.receipt.com/static/bootstrap/img/loading.gif
+[运行时间：0.924007s] [吞吐率：1.08req/s] [内存消耗：2,263.23kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/static/bootstrap/css/fileinput.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:27+08:00 ] 192.168.33.1 GET local.receipt.com/admin/index/welcome
+[运行时间：1.102405s] [吞吐率：0.91req/s] [内存消耗：4,089.89kb] [文件加载：82]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726553',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/welcome.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'data',
+  5 => 'sys_sum',
+  6 => 'cash_sum',
+  7 => 'sys_money',
+  8 => 'order_sum',
+  9 => 'order_pass',
+  10 => 'order_offpass',
+  11 => 'order_today',
+  12 => 'order_today_pass',
+  13 => 'order_today_offpass',
+  14 => 'order_today_onpass',
+  15 => 'order_today_money',
+  16 => 'cash_today_onpass',
+  17 => 'order_stoday',
+  18 => 'order_stoday_pass',
+  19 => 'order_stoday_offpass',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:28+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/TweenMax.min.js
+[运行时间：0.492426s] [吞吐率：2.03req/s] [内存消耗：2,262.96kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:28+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/jquery.min(1).js
+[运行时间：0.541761s] [吞吐率：1.85req/s] [内存消耗：2,262.99kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:28+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/index.js
+[运行时间：0.563682s] [吞吐率：1.77req/s] [内存消耗：2,262.92kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:28+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/TweenMax.min.js
+[运行时间：0.261579s] [吞吐率：3.82req/s] [内存消耗：2,262.96kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:28+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/index.js
+[运行时间：0.197994s] [吞吐率：5.05req/s] [内存消耗：2,262.92kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:33+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/index
+[运行时间：1.113768s] [吞吐率：0.90req/s] [内存消耗：4,007.42kb] [文件加载：77]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->index[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-list.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:34+08:00 ] 192.168.33.1 POST local.receipt.com/admin/tasks/index
+[运行时间：0.722715s] [吞吐率：1.38req/s] [内存消耗：4,007.14kb] [文件加载：81]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.receipt.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '90',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->index[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:37+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask
+[运行时间：0.916414s] [吞吐率：1.09req/s] [内存消耗：4,018.74kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:38+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.23484056132801423
+[运行时间：0.593603s] [吞吐率：1.68req/s] [内存消耗：4,018.94kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_23484056132801423' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:47+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.06262869314846076
+[运行时间：0.542405s] [吞吐率：1.84req/s] [内存消耗：4,018.94kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_06262869314846076' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:16:57+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.48414339459083733
+[运行时间：0.559959s] [吞吐率：1.79req/s] [内存消耗：4,018.94kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_48414339459083733' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:07+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.8916738484585944
+[运行时间：0.600353s] [吞吐率：1.67req/s] [内存消耗：4,018.91kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_8916738484585944' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:16+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：1.355731s] [吞吐率：0.74req/s] [内存消耗：3,982.15kb] [文件加载：77]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/index.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:17+08:00 ] 192.168.33.1 GET local.receipt.com/static/bootstrap/img/loading.gif
+[运行时间：0.534687s] [吞吐率：1.87req/s] [内存消耗：2,263.23kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/static/bootstrap/css/fileinput.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:17+08:00 ] 192.168.33.1 GET local.receipt.com/admin/index/welcome
+[运行时间：0.867895s] [吞吐率：1.15req/s] [内存消耗：4,089.89kb] [文件加载：82]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726587',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/welcome.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'data',
+  5 => 'sys_sum',
+  6 => 'cash_sum',
+  7 => 'sys_money',
+  8 => 'order_sum',
+  9 => 'order_pass',
+  10 => 'order_offpass',
+  11 => 'order_today',
+  12 => 'order_today_pass',
+  13 => 'order_today_offpass',
+  14 => 'order_today_onpass',
+  15 => 'order_today_money',
+  16 => 'cash_today_onpass',
+  17 => 'order_stoday',
+  18 => 'order_stoday_pass',
+  19 => 'order_stoday_offpass',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:18+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/index.js
+[运行时间：1.113903s] [吞吐率：0.90req/s] [内存消耗：2,262.92kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:18+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/jquery.min(1).js
+[运行时间：1.158516s] [吞吐率：0.86req/s] [内存消耗：2,262.99kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:18+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/TweenMax.min.js
+[运行时间：1.290062s] [吞吐率：0.78req/s] [内存消耗：2,262.96kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:19+08:00 ] 192.168.33.1 GET local.receipt.com/static/lib/echarts/echarts.js.map
+[运行时间：0.605559s] [吞吐率：1.65req/s] [内存消耗：2,262.45kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'echarts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:19+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/index.js
+[运行时间：0.502521s] [吞吐率：1.99req/s] [内存消耗：2,263.44kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:25+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/index
+[运行时间：1.085383s] [吞吐率：0.92req/s] [内存消耗：4,009.31kb] [文件加载：77]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->index[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-list.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:27+08:00 ] 192.168.33.1 GET local.receipt.com/static/lib/echarts/echarts.js.map
+[运行时间：0.798466s] [吞吐率：1.25req/s] [内存消耗：2,262.45kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'echarts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:27+08:00 ] 192.168.33.1 POST local.receipt.com/admin/tasks/index
+[运行时间：0.632971s] [吞吐率：1.58req/s] [内存消耗：4,007.53kb] [文件加载：81]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.receipt.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '90',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->index[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:31+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask
+[运行时间：1.072360s] [吞吐率：0.93req/s] [内存消耗：4,020.38kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:33+08:00 ] 192.168.33.1 GET local.receipt.com/static/lib/echarts/echarts.js.map
+[运行时间：0.717819s] [吞吐率：1.39req/s] [内存消耗：2,262.45kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'lib',
+    2 => 'echarts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:46+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.05053411549137543
+[运行时间：0.655138s] [吞吐率：1.53req/s] [内存消耗：4,018.94kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_05053411549137543' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:17:55+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.6607575144516917
+[运行时间：0.641673s] [吞吐率：1.56req/s] [内存消耗：4,018.91kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_6607575144516917' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:07+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.5406356285721465
+[运行时间：1.229872s] [吞吐率：0.81req/s] [内存消耗：4,018.91kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_5406356285721465' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:15+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.07124804409646868
+[运行时间：0.568344s] [吞吐率：1.76req/s] [内存消耗：4,018.94kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_07124804409646868' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:27+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：1.251104s] [吞吐率：0.80req/s] [内存消耗：3,982.15kb] [文件加载：77]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/index.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:28+08:00 ] 192.168.33.1 GET local.receipt.com/static/bootstrap/img/loading.gif
+[运行时间：0.637556s] [吞吐率：1.57req/s] [内存消耗：2,263.23kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/static/bootstrap/css/fileinput.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:29+08:00 ] 192.168.33.1 GET local.receipt.com/admin/index/welcome
+[运行时间：1.540682s] [吞吐率：0.65req/s] [内存消耗：4,089.89kb] [文件加载：82]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726637',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/welcome.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'data',
+  5 => 'sys_sum',
+  6 => 'cash_sum',
+  7 => 'sys_money',
+  8 => 'order_sum',
+  9 => 'order_pass',
+  10 => 'order_offpass',
+  11 => 'order_today',
+  12 => 'order_today_pass',
+  13 => 'order_today_offpass',
+  14 => 'order_today_onpass',
+  15 => 'order_today_money',
+  16 => 'cash_today_onpass',
+  17 => 'order_stoday',
+  18 => 'order_stoday_pass',
+  19 => 'order_stoday_offpass',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:31+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/jquery.min(1).js
+[运行时间：1.927481s] [吞吐率：0.52req/s] [内存消耗：2,262.99kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726709',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:31+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/TweenMax.min.js
+[运行时间：1.873070s] [吞吐率：0.53req/s] [内存消耗：2,262.96kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726709',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:31+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/index.js
+[运行时间：1.812652s] [吞吐率：0.55req/s] [内存消耗：2,262.92kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726709',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:37+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/index
+[运行时间：1.255939s] [吞吐率：0.80req/s] [内存消耗：4,007.42kb] [文件加载：77]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726709',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->index[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-list.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:39+08:00 ] 192.168.33.1 POST local.receipt.com/admin/tasks/index
+[运行时间：0.995286s] [吞吐率：1.00req/s] [内存消耗：4,007.14kb] [文件加载：81]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726709',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.receipt.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '90',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->index[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:49+08:00 ] 192.168.33.1 GET local.receipt.com/admin/base/clear
+[运行时间：1.303661s] [吞吐率：0.77req/s] [内存消耗：3,911.20kb] [文件加载：76]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'clear',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726709',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Base->clear[ /vagrant_www/receipt/application/admin/controller/Base.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:51+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：1.309257s] [吞吐率：0.76req/s] [内存消耗：3,982.39kb] [文件加载：77]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726709',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/index.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:52+08:00 ] 192.168.33.1 GET local.receipt.com/static/bootstrap/img/loading.gif
+[运行时间：0.650567s] [吞吐率：1.54req/s] [内存消耗：2,263.23kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726709',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/static/bootstrap/css/fileinput.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:53+08:00 ] 192.168.33.1 GET local.receipt.com/admin/index/welcome
+[运行时间：1.098912s] [吞吐率：0.91req/s] [内存消耗：4,089.89kb] [文件加载：82]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726709',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/welcome.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'data',
+  5 => 'sys_sum',
+  6 => 'cash_sum',
+  7 => 'sys_money',
+  8 => 'order_sum',
+  9 => 'order_pass',
+  10 => 'order_offpass',
+  11 => 'order_today',
+  12 => 'order_today_pass',
+  13 => 'order_today_offpass',
+  14 => 'order_today_onpass',
+  15 => 'order_today_money',
+  16 => 'cash_today_onpass',
+  17 => 'order_stoday',
+  18 => 'order_stoday_pass',
+  19 => 'order_stoday_offpass',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:54+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/jquery.min(1).js
+[运行时间：0.670902s] [吞吐率：1.49req/s] [内存消耗：2,262.99kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726733',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:54+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/TweenMax.min.js
+[运行时间：0.671932s] [吞吐率：1.49req/s] [内存消耗：2,262.96kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726733',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:54+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/index.js
+[运行时间：0.694506s] [吞吐率：1.44req/s] [内存消耗：2,262.92kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726733',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:54+08:00 ] 192.168.33.1 GET local.receipt.com/admin/base/clear
+[运行时间：0.498947s] [吞吐率：2.00req/s] [内存消耗：3,911.20kb] [文件加载：76]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'clear',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726733',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Base->clear[ /vagrant_www/receipt/application/admin/controller/Base.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:57+08:00 ] 192.168.33.1 GET local.receipt.com/admin
+[运行时间：1.481271s] [吞吐率：0.68req/s] [内存消耗：4,121.96kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726733',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/index.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:58+08:00 ] 192.168.33.1 GET local.receipt.com/admin/index/welcome
+[运行时间：0.993804s] [吞吐率：1.01req/s] [内存消耗：4,254.70kb] [文件加载：84]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726733',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /vagrant_www/receipt/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/index/welcome.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'data',
+  5 => 'sys_sum',
+  6 => 'cash_sum',
+  7 => 'sys_money',
+  8 => 'order_sum',
+  9 => 'order_pass',
+  10 => 'order_offpass',
+  11 => 'order_today',
+  12 => 'order_today_pass',
+  13 => 'order_today_offpass',
+  14 => 'order_today_onpass',
+  15 => 'order_today_money',
+  16 => 'cash_today_onpass',
+  17 => 'order_stoday',
+  18 => 'order_stoday_pass',
+  19 => 'order_stoday_offpass',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:59+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/index.js
+[运行时间：0.627762s] [吞吐率：1.59req/s] [内存消耗：2,262.92kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726738',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:59+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/jquery.min(1).js
+[运行时间：0.654984s] [吞吐率：1.53req/s] [内存消耗：2,262.99kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726738',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:59+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/TweenMax.min.js
+[运行时间：0.636236s] [吞吐率：1.57req/s] [内存消耗：2,262.96kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726738',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:59+08:00 ] 192.168.33.1 GET local.receipt.com/static/admin/mainjs/index.js
+[运行时间：0.236836s] [吞吐率：4.22req/s] [内存消耗：2,262.92kb] [文件加载：59]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'mainjs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726738',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/index/welcome',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:05+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/index
+[运行时间：0.835534s] [吞吐率：1.20req/s] [内存消耗：4,151.38kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726738',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->index[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-list.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:07+08:00 ] 192.168.33.1 POST local.receipt.com/admin/tasks/index
+[运行时间：1.134701s] [吞吐率：0.88req/s] [内存消耗：4,007.14kb] [文件加载：81]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726738',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/index',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://local.receipt.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '90',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->index[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:10+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask
+[运行时间：1.118230s] [吞吐率：0.89req/s] [内存消耗：4,187.47kb] [文件加载：81]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726738',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:11+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.36501130990917785
+[运行时间：0.628931s] [吞吐率：1.59req/s] [内存消耗：4,018.94kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726738',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_36501130990917785' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:19+08:00 ] 192.168.33.1 GET local.receipt.com/admin/tasks/addtask?0.676645552731747
+[运行时间：0.528294s] [吞吐率：1.89req/s] [内存消耗：4,018.91kb] [文件加载：79]
+[ info ] [ LANG ] /vagrant_www/receipt/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tasks',
+    2 => 'addtask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=89dltdmnrqau1u1kt22ug4eddc; is_login=yes; Hm_lvt_080836300300be57b7f34f4b3e97d911=1573726442; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1573726738',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://local.receipt.com/admin/tasks/addtask',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'local.receipt.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_676645552731747' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Tasks->addTask[ /vagrant_www/receipt/application/admin/controller/Tasks.php ]
+[ info ] [ VIEW ] /vagrant_www/receipt/public/../application/admin/view/tasks/task-add.html [ array (
+  0 => 'menuInfo',
+  1 => 'admin',
+  2 => 'role',
+  3 => 'adminInfo',
+  4 => 'type',
+  5 => 'data',
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,43 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body style="background: #F5F5F5;">
+<header class="m-navbar message-bar no-bar">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="message-body msg-body">
+    <ul>
+        <volist name="message" id="msg" empty="$empty">
+            <li>
+                <a href="{:url('/msginfo/' . $msg['id'])}">
+                    <h3>{$msg.title}</h3>
+                    <em>{$msg.ctime|date="Y-m-d H:i:s",###}</em>
+                </a>
+            </li>
+        </volist>
+    </ul>
+</div>
+<div class="more_gn">—— 更多精彩，敬请期待！ ——</div>
+<include file="common/footer"/>
+<script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
+<script>
+    $('#kefu').on('click',function () {
+        layer.open({
+            type: 1,
+            title:'联系客服',
+            content: '<p class="p15">官方微信：{:sysconf('site_wechat')}</p><p class="p15">官方QQ群：{:sysconf('site_qqun')}</p>'
+            ,area: ["75%", '130px']
+            ,shadeClose: true
+            ,success:function() {
+
+            }
+        })
+    })
+</script>
+</body>
+</html>

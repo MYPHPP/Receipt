@@ -1,0 +1,76 @@
+<div class="footer tabbar-fixed">
+    <if($order.id == '' || $order.status != 1)>
+        <span><a href="{:url('/detail/' . $rand['id'])}"><i class="Hui-iconfont Hui-iconfont-huanyipi"></i> 换一个</a></span>
+        <span id="accept">开始报名</span>
+    <elseif($order.status == 1)>
+        <span><a href="{:url('/chat/' . $roomid)}"><i class="Hui-iconfont Hui-iconfont-xiaoxi1"></i> 联系悬赏主</a></span>
+        <span>
+            <input type="hidden" name="oid" value="{$order.id}">
+            <input type="hidden" name="type" value="check">
+            <button type="button" lay-submit="" lay-filter="submit">提交验证</button>
+        </span>
+    <elseif($order.status == 0)>
+        <span><a href="{:url('/chat/' . $roomid)}"><i class="Hui-iconfont Hui-iconfont-xiaoxi1"></i> 联系悬赏主</a></span>
+        <span>已完成</span>
+    <elseif($order.status == 3)>
+        <span><a href="{:url('/chat/' . $roomid)}"><i class="Hui-iconfont Hui-iconfont-xiaoxi1"></i> 联系悬赏主</a></span>
+        <span>不合格</span>
+    <else>
+        <span><a href="{:url('/chat/' . $roomid)}"><i class="Hui-iconfont Hui-iconfont-xiaoxi1"></i> 联系悬赏主</a></span>
+        <span>
+            <input type="hidden" name="oid" value="{$order.id}">
+            <input type="hidden" name="type" value="check">
+            <button type="button" lay-submit="" lay-filter="submit">提交验证</button>
+        </span>
+    </if>
+</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/ydui/js/ydui.js"></script>
+<script type="text/javascript" src="__STATIC__/home/js/clipboard.min.js"></script>
+<script>
+    layui.use(['form', 'layer'], function () {
+        var form = layui.form, layer = layui.layer,$= layui.jquery;
+        form.on('submit(submit)', function (data) {
+            YDUI.dialog.confirm('警告',  '您确定已完成任务并提交审核吗？恶意提交将做永久封号处理！',  [
+                {
+                    txt: '取消',
+                    color: false, /* false:黑色 true:绿色 或 使用颜色值 */
+                    callback: function () {  }
+                },
+                {
+                    txt: '确定',
+                    color: true,
+                    callback: function () {
+                        loading =layer.load(1, {shade: [0.1,'#fff']});
+                        $.post("{:url('/accept')}", data.field, function (res) {
+                            layer.close(loading);
+                            if (res.code == 0) {
+                                layer.msg(res.msg, {time: 1800, icon: 1}, function () {
+                                    window.parent.location.reload();
+                                });
+                            } else {
+                                layer.msg(res.msg, {time: 1800, icon: 2});
+                            }
+                        });
+                    }
+                }
+            ]);
+
+        });
+    });
+    $('#accept').on('click',function () {
+      	if("{$user.id}" == ''){
+          	location.href = "{:url('/login')}";
+        }
+        $.post("{:url('/accept')}",{type:'accept',id:{$task.id}},function (res) {
+            if(res.code == 0){
+                YDUI.dialog.toast('接单成功！请在规定时间完成！','success',1000,function () {
+                    location.reload();
+                });
+            }else{
+                YDUI.dialog.toast(res.msg,'error',1000);
+            }
+        })
+    })
+</script>

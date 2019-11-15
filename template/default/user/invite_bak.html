@@ -1,0 +1,52 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body style="background: #e4b9b9;">
+<header class="m-navbar message-bar no-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="invite-top">
+    <div class="invite-body"></div>
+    <div class="invite-btn"></div>
+</div>
+<div class="box_warp hidden">
+    <div class="box_info box-invite">
+        <img src="/getqrcode?uid={$user.id}">
+        <p>长按保存发送二维码给好友注册一起赚钱！</p>
+        <ul>
+            <li><button type="button" class="cc-btn" id="open">打开链接</button> </li>
+            <li><button type="button" class="cc-btn red" id="copy" data-clipboard-action="copy" data-clipboard-text="{:sysconf('site_url')}/regs/{$user.id}">复制链接</button> </li>
+        </ul>
+    </div>
+</div>
+<div class="more_gn">—— 更多精彩，敬请期待！ ——</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/ydui/js/ydui.js"></script>
+<script type="text/javascript" src="__STATIC__/home/js/clipboard.min.js"></script>
+<script>
+    $('.invite-btn').on('click',function () {
+        event.stopPropagation();
+        $('.box_warp').show();
+    })
+    $("body>*").click(function(event){
+        var _con = $('.box_info');
+        if(!_con.is(event.target) && _con.has(event.target).length === 0){
+            $('.box_warp').hide();
+        }
+    });
+    $('#open').on('click',function () {
+        location.href = "{:sysconf('site_url')}/regs/{$user.id}";
+    })
+    var clipboard = new ClipboardJS('#copy');
+    clipboard.on('success', function (e) {
+        YDUI.dialog.toast("复制成功", "success", 1000);
+    });
+</script>
+</body>
+</html>

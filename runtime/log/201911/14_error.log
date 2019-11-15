@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2019-11-14T17:13:54+08:00 ] 192.168.33.1 GET local.receipt.com/
+[ error ] [0]不支持:memcache[/vagrant_www/receipt/thinkphp/library/think/session/driver/Memcache.php:44]
+---------------------------------------------------------------
+[ 2019-11-14T17:14:32+08:00 ] 192.168.33.1 GET local.receipt.com/
+[ error ] [0]不支持:memcache[/vagrant_www/receipt/thinkphp/library/think/session/driver/Memcache.php:44]
+---------------------------------------------------------------
+[ 2019-11-14T17:15:53+08:00 ] 192.168.33.1 GET local.receipt.com/
+[ error ] [0]不支持:memcache[/vagrant_www/receipt/thinkphp/library/think/session/driver/Memcache.php:44]
+---------------------------------------------------------------
+[ 2019-11-14T17:24:33+08:00 ] 192.168.33.1 GET local.receipt.com/
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'receipt.box_ad' doesn't exist[/vagrant_www/receipt/thinkphp/library/think/db/Connection.php:385]

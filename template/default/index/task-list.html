@@ -1,0 +1,156 @@
+<include file="common/header"/>
+<title>{$title} - {:sysconf('site_title')}</title>
+<link href="__STATIC__/lib/layui/css/layui.css" rel="stylesheet">
+</head>
+<body>
+<div class="task-top">
+    <div class="task-nav">
+        <ul>
+            <li <if($column == 0)>class="active"</if>><a href="{:url('/task')}">全部</a></li>
+            <li <if($column == 1)>class="active"</if>><a href="{:url('/task?column=1')}">简单</a></li>
+            <li <if($column == 2)>class="active"</if>><a href="{:url('/task?column=2')}">高价</a></li>
+        </ul>
+    </div>
+    <div class="task-type">
+        <ul>
+            <li id="type">类型</li>
+            <li class="order active" data-order="sort">综合</li>
+            <li class="order" data-order="new">最新</li>
+            <li class="order" data-order="price">价格</li>
+            <li class="order" data-order="hot">人气</li>
+        </ul>
+    </div>
+    <div class="nav-item hidden">
+        <div class="nav-type">
+            <form class="layui-form" action="">
+                <ul>
+                    <volist name="type" id="ve">
+                        <li>
+                            <input type="checkbox" name="type" title="{$ve.name}" value="{$ve.id}">
+                        </li>
+                    </volist>
+                </ul>
+                <div class="nav-btn">
+                    <button type="reset">重置</button>
+                    <button type="button" lay-submit lay-filter="submit">确定</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="task-msg">
+        <img src="__STATIC__/home/img/top-icon.png">
+        <div id="marquee" class="marquee">
+            <div id="holder">
+                <ul>
+                    <volist name="top" id="top">
+                        <a href="{:url('/detail/' . $top.id)}">
+                            <li>{$top.title}<em>{$top.price}元</em></li>
+                        </a>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="task-content">
+    <ul>
+        <volist name="task" id="vt">
+        <li>
+            <a href="{:url('/detail/' . $vt.id)}">
+                <img src="{$vt.logo == '' ? $vt.avatar : $vt.logo}">
+                <div class="content-top">
+                    <div class="left">
+                        <h3>{$vt.title}</h3>
+                        <volist name="$vt.icon" id="icon">
+                            <img src="__STATIC__/home/img/{$icon}.png" class="{$icon}">
+                        </volist>
+                    </div>
+                    <em>+{$vt.price}元</em>
+                </div>
+                <div class="content-foot">
+                    <span>{$vt.tname}</span>
+                    <span>{$vt.name}</span>
+                    <em>{$vt.passnum}人已完成|剩余数{$vt.number - $vt.jnum}</em>
+                </div>
+            </a>
+        </li>
+        </volist>
+    </ul>
+</div>
+<div class="more_gn">—— 更多精彩，敬请期待！ ——</div>
+<include file="common/footer"/>
+<script type="text/javascript" src="/static/lib/layui/layui.js"></script>
+<script src="__STATIC__/static/h-ui/js/H-ui.min.js"></script>
+<script>
+    $.Huimarquee(22,30,3000);
+    $(function () {
+        order = $('.task-type .active').data('order');
+        type = new Array();
+      	layui.use(['form', 'layer'], function(){
+            var form = layui.form,layer = layui.layer,$= layui.jquery;
+            form.on('submit(submit)', function(data){
+                var checked = $('input[name="type"]:checked');
+                type = new Array();
+                for(var i = 0;  i < checked.length; i ++){
+                    type.push(checked[i].value);
+                }
+                getask(type,order);
+            });
+        });
+        $('.order').on('click',function () {
+            $('.order').removeClass('active');
+            $(this).addClass('active');
+            order = $(this).data('order');
+            getask(type,order);
+        });
+        $('#type').on('click',function () {
+            event.stopPropagation();
+            $('.nav-item').toggle();
+        });
+        $("body>*").click(function(event){
+            var _con = $('.nav-type');
+            if(!_con.is(event.target) && _con.has(event.target).length === 0){
+                $('.nav-item').hide();
+            }
+        });
+        function getask(type,order) {
+            $.post("{:url('/getask')}",{type:type,order:order},function (res) {
+                if(res.code == 0){
+                    var data = res.data;
+                    var html = "";
+                    for(i=0;i<data.length;i++){
+                        html+='<li>'
+                        html+='<a href="/detail/' + data[i].id + '">'
+                        html+='<img src="' + data[i].avatar + '">'
+                        html+='<div class="content-top">'
+                        html+='<div class="left">'
+                        html+='<h3>'+ data[i].title +'</h3>'
+                        if(data[i].icon != null){
+                            for(u=0;u<data[i].icon.length;u++){
+                                html+='<img src="__STATIC__/home/img/'+ data[i].icon[u] +'.png" class="' + data[i].icon[u] + '">'
+                            }
+                        }
+                        html+='</div>'
+                        html+='<em>+'+ data[i].price +'元</em>'
+                        html+='</div>'
+                        html+='<div class="content-foot">'
+                        html+='<span>'+ data[i].tname +'</span>'
+                        html+='<span>'+ data[i].name +'</span>'
+                        html+='<em>'+ data[i].passnum +'人已完成|剩余数'+ data[i].number+'</em>'
+                        html+='</div>'
+                        html+='</a>'
+                        html+='</li>'
+                    }
+                    $('.task-content ul').empty();
+                    $('.task-content ul').html(html);
+                    $('.nav-item').hide();
+                }else{
+                    YDUI.dialog.toast('网络错误！','error',1000);
+                }
+            })
+        }
+    })
+    
+</script>
+</body>
+</html>

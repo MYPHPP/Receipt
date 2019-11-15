@@ -1,0 +1,43 @@
+{include file="common/blank" /}
+<![endif]-->
+<!--/meta 作为公共模版分离出去-->
+<style>
+    .layui-form-radio{display: none;}
+    .layui-input-4{width:60%;float: left;}
+    .maximg{max-width: 600px;max-height: 800px;}
+</style>
+<title>订单详情 - 初创网络</title>
+</head>
+<body>
+<article class="page-container">
+    <form class="layui-form layui-form-pane" lay-filter="form-article">
+        {volist name="data" id="vd"}
+        {eq name="vd.type" value="data"}
+        <div class="layui-form-item">
+            <label class="layui-form-label">收集信息：</label>
+            <div class="layui-input-4">
+                <input type="text" value="{$vd.content}" class="layui-input">
+            </div>
+        </div>
+        {/eq}
+        {eq name="vd.type" value="yz"}
+        {foreach name="vd.yz" id="content"}
+        <div class="layui-form-item">
+            <label class="layui-form-label">验证图{$key+1}：</label>
+            <div class="layui-input-block">
+                <img class="layui-upload-img maximg" id="logoImage" src="{$content}">
+            </div>
+        </div>
+        {/foreach}
+        {/eq}
+        {/volist}
+    </form>
+</article>
+<link href="/static/lib/layui/css/layui.css" media="all" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/static/lib/layui/layui.js"></script>
+
+<!--_footer 作为公共模版分离出去-->
+{include file="common/footer" /}
+<!--/_footer 作为公共模版分离出去-->
+</body>
+</html>

@@ -1,0 +1,87 @@
+<div class="footer chat-foot tabbar-fixed">
+    <div class="send-up cc-upbtn">
+        <i class="Hui-iconfont Hui-iconfont-picture1"></i>
+    </div>
+
+    <input id="content" type="text" class="cc-input">
+    <button type="button" id="send" class="red">发送</button>
+</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/ydui/js/ydui.js"></script>
+<script type="text/javascript" src="__STATIC__/home/js/clipboard.min.js"></script>
+<script type="text/javascript" src="/static/lib/layui/layui.js"></script>
+<link href="__STATIC__/lib/layui/css/layui.css" rel="stylesheet">
+<script>
+    $(function () {
+        $('html, body, .content').animate({scrollTop: $(document).height()}, 300);
+    })
+    $('#send').on('click',function () {
+        var content = $('#content').val();
+        if(content == ''){
+            YDUI.dialog.toast('请输入内容','error',1000);
+            return;
+        }
+        $.post("{:url('/sendmsg')}",{tid:{$msg.tid},toid:{$msg.fid},roomid:"{$msg.roomid}",content:content,txt:'txt'},function (res) {
+            if(res.code == 0){
+                var html = "";
+                html+='<div class="chat-msg">'
+                html+='<div class="chat-avatar right">'
+                html+='<img src="{$user.avatar}">'
+                html+='</div>'
+                html+='<div class="chat-content right">'
+                html+='<p>'+ content +'</p>'
+                html+='</div>'
+                html+='</div>'
+                $('.chat-body').append(html);
+                $('#content').val('');
+                $('html, body, .content').animate({scrollTop: $(document).height()}, 300);
+            }else{
+                YDUI.dialog.toast(res.msg,'error',1500);
+            }
+        })
+    })
+    layui.use('upload', function() {
+        var upload = layui.upload;
+        var uploadInst = upload.render({
+            elem: '.cc-upbtn',
+            url: '/home/Upfile/uploads',
+            accept:'images',
+            acceptMime: 'image/*',
+            multiple: false // 多图上传,不开启
+            ,before: function(obj){
+                obj.preview(function(index, file, result,upload){
+                    loading =layer.load(1, {shade: [0.1,'#fff']});
+                });
+            },
+            done: function(res){
+                layer.close(loading);
+                if(res.code>0){
+                    $.post("{:url('/sendmsg')}",{tid:{$msg.tid},toid:{$msg.fid},roomid:"{$msg.roomid}",content:res.url,txt:'img'},function (data) {
+                        if(data.code == 0){
+                            var html = "";
+                            html+='<div class="chat-msg">'
+                            html+='<div class="chat-avatar right">'
+                            html+='<img src="{$user.avatar}">'
+                            html+='</div>'
+                            html+='<div class="chat-content right">'
+                            html+='<img src="'+ res.url +'">'
+                            html+='</div>'
+                            html+='</div>'
+                            $('.chat-body').append(html);
+                            $('html, body, .content').animate({scrollTop: $(document).height()}, 300);
+                        }else{
+                            YDUI.dialog.toast(data.msg,'error',1000);
+                        }
+                    })
+                }else{
+                    //如果上传失败
+                    return YDUI.dialog.toast('上传失败','error',1000);
+                }
+            },
+            error: function(){
+
+            }
+        });
+    })
+</script>

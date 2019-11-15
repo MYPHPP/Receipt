@@ -1,0 +1,50 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body style="background: #F5F5F5;">
+<header class="m-navbar message-bar no-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="record-list top1">
+    <ul>
+        <volist name="record" id="vo">
+            <li class="down">
+                <if($vo.mode == '+')>
+                <span class="btn btn-primary size-MINI radius">收入</span>
+                <elseif($vo.type == 6)>
+                <span class="btn btn-warning size-MINI radius">提现</span>
+                <else>
+                    <span class="btn btn-warning size-MINI radius">支出</span>
+                </if>
+                    ¥{$vo.money}
+                    <em class="list_ddv">
+                        {$vo.ctime|date="Y-m-d H:i:s",###}
+                        <i class="icons Hui-iconfont Hui-iconfont-arrow2-bottom" style="display: inline;"></i>
+                        <i class="icon Hui-iconfont Hui-iconfont-arrow2-top" style="display: none;"></i>
+                    </em>
+                    <p class="hidden">{$vo.remark}</p>
+            </li>
+        </volist>
+    </ul>
+</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/ydui/js/ydui.js"></script>
+<script>
+    $(".down").click(function(){
+        $(this).find(".icons").toggle();
+        $(this).find(".icon").toggle();
+        $(this).siblings().find(".icon").hide();
+        $(this).siblings().find(".icons").show();
+        $(this).find("p").toggle();
+        $(this).siblings().find("p").hide();
+    });
+
+</script>
+</body>
+</html>

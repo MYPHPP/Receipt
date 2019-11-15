@@ -1,0 +1,74 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body style="background: #F5F5F5;">
+<header class="m-navbar message-bar no-bar">
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="message-top">
+    <ul>
+        <li>
+            <a href="{:url('/article')}">
+                <img src="__STATIC__/home/img/msg-icon1.png">
+                <h3>最新资讯</h3>
+            </a>
+        </li>
+        <li id="kefu">
+            <img src="__STATIC__/home/img/msg-icon2.png">
+            <h3>在线客服</h3>
+        </li>
+        <li>
+            <a href="{:url('/msg')}">
+                <img src="__STATIC__/home/img/msg-icon3.png">
+                <h3>系统通知</h3>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="message-nav">
+    <img src="__STATIC__/home/img/xuzhi.png">
+    <ul>
+        <li>1.确保兼职的可靠性，是否收取额外费用</li>
+        <li>2.确保兼职的时间，别耽误上工时间</li>
+        <li>3.确保兼职的地点，避免不必要的麻烦</li>
+    </ul>
+</div>
+<div class="message-body">
+    <ul>
+        <volist name="message" id="msg" empty="$empty">
+            <li>
+                <a href="{:url('/chat/' . $msg['roomid'])}">
+                    <img src="{$msg.avatar}">
+                    <h3>{$msg.title}<if($msg.weidu == 1)><span class="badge badge-danger">{$msg.num}</span></if></h3>
+                    <em>{$msg.ctime|date="Y-m-d H:i:s",###}</em>
+                    <p>{$msg.content}</p>
+                </a>
+            </li>
+        </volist>
+    </ul>
+</div>
+<div class="more_gn">—— 更多精彩，敬请期待！ ——</div>
+<include file="common/footer"/>
+<script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="__STATIC__/home/js/clipboard.min.js"></script>
+<script>
+    $('#kefu').on('click',function () {
+        layer.open({
+            type: 1,
+            title:'联系客服',
+            content: '<p class="p15">官方微信：{:sysconf('site_wechat')}<span class="copy-span" id="copy" data-clipboard-action="copy" data-clipboard-text="{:sysconf(\'site_wechat\')}">[复制]</span></p><p class="p15">官方QQ群：{:sysconf(\'site_qqun\')}<span class="copy-span" id="copy" data-clipboard-action="copy" data-clipboard-text="{:sysconf(\'site_qqun\')}">[复制]</span></p>'
+            ,area: ["75%", '130px']
+            ,shadeClose: true
+            ,success:function() {
+                var clipboard = new ClipboardJS('#copy');
+                clipboard.on('success', function (e) {
+                    layer.msg("复制成功", {icon:1,time: 1000});
+                });
+            }
+        })
+    })
+</script>
+</body>
+</html>

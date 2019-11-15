@@ -1,0 +1,36 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body>
+<header class="m-navbar message-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="task-body task-content">
+    <ul>
+        <volist name="task" id="vt" empty="$empty">
+            <li>
+                <!--a href="{:url('/detail/' . $vt.tid)}"-->
+                    <img src="{$vt.logo  == '' ? get_user_info($vt['uid'],'avatar') : $vt.logo}">
+                    <div class="content-top">
+                        <div class="left">
+                            <h3>{$vt.title}</h3>
+                        </div>
+                        <em>+{$vt.money}元</em>
+                    </div>
+                    <div class="content-foot">
+                        <span>{$vt.tname}</span>
+                        <em>{$vt.ctime|date="Y-m-d H:i:s",###}</em>
+                    </div>
+                <!--/a-->
+            </li>
+        </volist>
+    </ul>
+</div>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+</body>
+</html>

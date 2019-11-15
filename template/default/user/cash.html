@@ -1,0 +1,65 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body style="background: #F5F5F5;">
+<header class="m-navbar message-bar no-bar">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="cash-body">
+    <h3>提现金额</h3>
+    <div class="cash-input">
+        ¥<input type="number" id="money" placeholder="0.00">
+    </div>
+    <p class="p97">可以提现金额：<if($type == 1)>{$user.money}<else>{$user.bial}元，已冻结保证金：{$user.d_bial}</if>元</p>
+    <button type="button" class="cc-btn red" id="cash">提现</button>
+</div>
+<div class="cash-body">
+    <h3>温馨提示</h3>
+    <p class="p97">1、提现将打款至您支付宝账号，请先<a href="{:url('/user/set')}" class="link-red">设置支付宝账号</a>！</p>
+    <if($type == 1)>
+        <p class="p97">2、提现金额需大于{:sysconf('site_cash_money')}元，提现时间为工作日9：00 -- 17：00！</p>
+        <p class="p97">3、提现手续费，1%。</p>
+        <p class="p97">4、提现需要1天审核周期，审核通过后即可发放到提现账户，有时因网络等原因可能相应延迟！</p>
+        <p class="p97">5、任务币每天只能提现一次，请知悉！</p>
+    <else>
+        <p class="p97">2、申请提现保证金前请确认相关任务均已下架，否则审核人员会打回提现申请！</p>
+        <p class="p97">3、保证金提交申请10个工作日（除去周六、周日、法定节假日的天数），经审核无违规行为及投诉，保证金将全额退还，退还时收取1%的支付手续费。</p>
+        <p class="p97">4、如申请10个工作日后未到账，请在工作日联系工作人员协助处理！</p>
+    </if>
+</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/ydui/js/ydui.js"></script>
+<script>
+    $('#cash').on('click',function () {
+        var money = $('#money').val();
+        if(money == ''){
+            YDUI.dialog.toast('请输入提现金额','error',1000);
+            return;
+        }
+        if("{$user.money}" < money && "{$type}" == 1){
+            YDUI.dialog.toast('提现金额不足！','error',1000);
+            return;
+        }
+        $.post("",{money:money,type:{$type}},function (res) {
+            if(res.code == 0){
+                YDUI.dialog.toast('提现成功！请等待审核！','success',1000,function () {
+                    location.href = "{:url('/user')}";
+                })
+            }else if(res.code == 2){
+                YDUI.dialog.toast(res.msg,'error',1000,function () {
+                    location.href = "{:url('/user/set')}";
+                })
+            }else{
+                YDUI.dialog.toast(res.msg,'error',1000);
+            }
+        })
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body style="background: #F5F5F5;">
+<header class="m-navbar message-bar no-bar">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="cash-body">
+    <h3>充值金额</h3>
+    <div class="cash-input">
+        ¥<input type="number" id="money" placeholder="0.00">
+    </div>
+    <p class="p97">保证金余额：{$user.bial}元，已冻结保证金：{$user.d_bial}元</p>
+    <button type="button" class="cc-btn red" id="cash">充值</button>
+</div>
+<div class="cash-body">
+    <h3>温馨提示</h3>
+    <p class="p97">此为商户充值用，充值后将入账保证金账户！</p>
+</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/ydui/js/ydui.js"></script>
+<script>
+    $('#cash').on('click',function () {
+        var money = $('#money').val();
+        if(money == ''){
+            YDUI.dialog.toast('请输入充值金额','error',1000);
+            return;
+        }
+        $.post("",{money:money},function (res) {
+            if(res.code == 0){
+                YDUI.dialog.toast(res.msg,'success',1000,function () {
+                    location.href = res.data;
+                })
+            }else{
+                YDUI.dialog.toast(res.msg,'error',1000);
+            }
+        })
+    })
+</script>
+</body>
+</html>

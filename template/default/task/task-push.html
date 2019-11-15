@@ -1,0 +1,300 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body style="background: #F5F5F5;">
+<header class="m-navbar message-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="push-body push-top">
+    <h3>请选择类型<em><i class="Hui-iconfont Hui-iconfont-shenhe-weitongguo"></i>类型说明</em></h3>
+    <ul class="select">
+        <volist name="type" id="vt">
+            <li class="type">
+                <span data-column="{$vt.column}" data-type="{$vt.id}">{$vt.name}</span>
+            </li>
+        </volist>
+    </ul>
+</div>
+<div class="push-body">
+    <h3>支持设备</h3>
+    <ul class="select">
+        <li class="os"><span data-os="0">全部</span></li>
+        <li class="os"><span data-os="1">苹果</span></li>
+        <li class="os"><span data-os="2">安卓</span></li>
+    </ul>
+</div>
+<form class="layui-form">
+    <div class="push-body">
+        <input type="hidden" id="column" name="column" value="">
+        <input type="hidden" id="type" name="type" value="">
+        <input type="hidden" id="os" name="os" value="">
+        <div class="layui-form-item">
+            <label class="layui-form-label">项目名称</label>
+            <div class="layui-input-block cc-local">
+                <input type="text" name="name" lay-verify="required" placeholder="必须真实项目名称" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">标题</label>
+            <div class="layui-input-block cc-local">
+                <input type="text" name="title" lay-verify="required" placeholder="项目名称+关键要点，10字以内" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">任务说明</label>
+            <div class="layui-input-block cc-local">
+                <input type="text" name="remark" lay-verify="required" placeholder="任务备注" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">接单限时</label>
+            <div class="layui-input-block">
+                <select name="outtime" lay-verify="required">
+                    <option value="1800">30分钟</option>
+                    <option value="3600" selected>1小时</option>
+                    <option value="21600">6小时</option>
+                    <option value="86400">1天</option>
+                    <option value="259200">3天</option>
+                    <option value="432000">5天</option>
+                    <option value="604800">7天</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">审核时间</label>
+            <div class="layui-input-block">
+                <select name="passtime" lay-verify="required">
+                    <option value="21600">6小时</option>
+                    <option value="43200">12小时</option>
+                    <option value="86400" selected>1天</option>
+                    <option value="172800">2天</option>
+                    <option value="259200">3天</option>
+                    <option value="345600">4天</option>
+                    <option value="432000">5天</option>
+                    <option value="518400">6天</option>
+                    <option value="604800">7天</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="push-body">
+        <div class="layui-form-item">
+            <label class="layui-form-label">悬赏单价</label>
+            <div class="layui-input-block cc-local">
+                <input type="text" id="price" name="price" lay-verify="required|price" placeholder="最低出价0.5元" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">悬赏数量</label>
+            <div class="layui-input-block cc-local">
+                <input type="text" id="num" name="number" lay-verify="required" placeholder="最少10单" autocomplete="off" class="layui-input input-number">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">预付赏金</label>
+            <div class="layui-input-block cc-local">
+                <input type="hidden" id="mout" value="{:sysconf('site_mout')}">
+                <input type="number" id="money" name="money" placeholder="服务费{:sysconf('site_mout')}%、含成交额100%" autocomplete="off" class="layui-input" disabled>
+            </div>
+        </div>
+    </div>
+    <div class="task-step">
+        <h3>添加步骤 <em class="Hui-iconfont Hui-iconfont-add2" id="J_ShowActionSheet"></em></h3>
+    </div>
+    <div class="detail-content">
+        <h3>做单步骤<span class="link-red">（建议网址和二维码放在第一步）</span></h3>
+        <ul class="push-data">
+            <volist name="data" id="vo">
+                <eq name="vo.type" value="url">
+                    <li class="num{$vo.id}">
+                        <div class="left">
+                            <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                        </div>
+                        <div class="right">
+                            <h3>{$vo.mark}</h3>
+                            <p>
+                                <a href="javascript:;" class="detail-btn link">打开链接</a>
+                                <a href="javascript:;" class="detail-btn copy" data-clipboard-action="copy" data-clipboard-text="{$vo.txt}">复制链接</a>
+                            </p>
+                        </div>
+                        <div class="task-detail">
+                            <ul>
+                                <li id="click{$i}" onclick="delstep({$vo.id},{$i})"><i class="Hui-iconfont Hui-iconfont-del2"></i> 删除</li>
+                                <li class="edit" data-id="{$vo.id}" data-type="{$vo.type}" data-title="{$vo.mark}" data-txt="{$vo.txt}"><i class="Hui-iconfont Hui-iconfont-edit2"></i> 编辑</li>
+                            </ul>
+                        </div>
+                    </li>
+                </eq>
+                <eq name="vo.type" value="ewm">
+                    <li class="num{$vo.id}">
+                        <div class="left">
+                            <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                        </div>
+                        <div class="right">
+                            <h3>{$vo.mark}</h3>
+                            <img src="{$vo.txt}" id="ewm">
+                            <a href="javascript:;" data-ewm="{$vo.txt}" class="detail-btn ewm">保存扫码</a>
+                        </div>
+                        <div class="task-detail">
+                            <ul>
+                                <li id="click{$i}" onclick="delstep({$vo.id},{$i})"><i class="Hui-iconfont Hui-iconfont-del2"></i> 删除</li>
+                                <li class="edit" data-id="{$vo.id}" data-type="{$vo.type}" data-title="{$vo.mark}" data-txt="{$vo.txt}"><i class="Hui-iconfont Hui-iconfont-edit2"></i> 编辑</li>
+                            </ul>
+                        </div>
+                    </li>
+                </eq>
+                <eq name="vo.type" value="copy">
+                    <li class="num{$vo.id}">
+                        <div class="left">
+                            <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                        </div>
+                        <div class="right">
+                            <h3>{$vo.mark}</h3>
+                            <input type="text" value="{$vo.txt}" class="cc-input" disabled>
+                            <a href="javascript:;" class="detail-btn copy" data-clipboard-action="copy" data-clipboard-text="{$vo.txt}">复制数据</a>
+                        </div>
+                        <div class="task-detail">
+                            <ul>
+                                <li id="click{$i}" onclick="delstep({$vo.id},{$i})"><i class="Hui-iconfont Hui-iconfont-del2"></i> 删除</li>
+                                <li class="edit" data-id="{$vo.id}" data-type="{$vo.type}" data-title="{$vo.mark}" data-txt="{$vo.txt}"><i class="Hui-iconfont Hui-iconfont-edit2"></i> 编辑</li>
+                            </ul>
+                        </div>
+                    </li>
+                </eq>
+                <eq name="vo.type" value="pic">
+                    <li class="num{$vo.id}">
+                        <div class="left">
+                            <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                        </div>
+                        <div class="right">
+                            <h3>{$vo.mark}</h3>
+                            <div class="pic">
+                                <div class="remark">说明图</div>
+                                <img src="{$vo.txt}">
+                            </div>
+                        </div>
+                        <div class="task-detail">
+                            <ul>
+                                <li id="click{$i}" onclick="delstep({$vo.id},{$i})"><i class="Hui-iconfont Hui-iconfont-del2"></i> 删除</li>
+                                <li class="edit" data-id="{$vo.id}" data-type="{$vo.type}" data-title="{$vo.mark}" data-txt="{$vo.txt}"><i class="Hui-iconfont Hui-iconfont-edit2"></i> 编辑</li>
+                            </ul>
+                        </div>
+                    </li>
+                </eq>
+                <eq name="vo.type" value="mark">
+                    <li class="num{$vo.id}">
+                        <div class="left">
+                            <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                        </div>
+                        <div class="right">
+                            <h3>{$vo.mark}</h3>
+                            <div class="pic">
+                                <div class="remark">验证图</div>
+                                <img src="{$vo.txt}">
+                            </div>
+                        </div>
+                        <div class="task-detail">
+                            <ul>
+                                <li id="click{$i}" onclick="delstep({$vo.id},{$i})"><i class="Hui-iconfont Hui-iconfont-del2"></i> 删除</li>
+                                <li class="edit" data-id="{$vo.id}" data-type="{$vo.type}" data-title="{$vo.mark}" data-txt="{$vo.txt}"><i class="Hui-iconfont Hui-iconfont-edit2"></i> 编辑</li>
+                            </ul>
+                        </div>
+                    </li>
+                </eq>
+                <eq name="vo.type" value="data">
+                    <li class="num{$vo.id}">
+                        <div class="left">
+                            <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                        </div>
+                        <div class="right">
+                            <h3>{$vo.mark}</h3>
+                            <input type="text" class="yztxt cc-input" id="yztxt" placeholder="请按要求输入文字内容">
+                        </div>
+                        <div class="task-detail">
+                            <ul>
+                                <li id="click{$i}" onclick="delstep({$vo.id},{$i})"><i class="Hui-iconfont Hui-iconfont-del2"></i> 删除</li>
+                                <li class="edit" data-id="{$vo.id}" data-type="{$vo.type}" data-title="{$vo.mark}" data-txt="{$vo.txt}"><i class="Hui-iconfont Hui-iconfont-edit2"></i> 编辑</li>
+                            </ul>
+                        </div>
+                    </li>
+                </eq>
+            </volist>
+        </ul>
+    </div>
+    <div class="more_gn">—— 更多精彩，敬请期待！ ——</div>
+    <div class="footer tabbar-fixed">
+        <span><button type="button" lay-submit="" lay-filter="preview" style="color:#333;"><i class="Hui-iconfont Hui-iconfont-yulan"></i> 预览</button></span>
+        <span><button type="button" lay-submit="" lay-filter="submit">申请发布</button></span>
+    </div>
+</form>
+<div class="m-actionsheet" id="J_ActionSheet">
+    <a href="javascript:;" class="actionsheet-item urls"><i class="Hui-iconfont Hui-iconfont-link"></i> 输入网址</a>
+    <a href="javascript:;" class="actionsheet-item ewms"><i class="Hui-iconfont Hui-iconfont-2code"></i> 二维码</a>
+    <a href="javascript:;" class="actionsheet-item copys"><i class="Hui-iconfont Hui-iconfont-copy"></i> 复制数据</a>
+    <a href="javascript:;" class="actionsheet-item pics"><i class="Hui-iconfont Hui-iconfont-tuwenxiangqing"></i> 图文说明</a>
+    <a href="javascript:;" class="actionsheet-item marks"><i class="Hui-iconfont Hui-iconfont-renwu"></i> 验证图</a>
+    <a href="javascript:;" class="actionsheet-item datas"><i class="Hui-iconfont Hui-iconfont-feedback1"></i> 收集信息</a>
+    <a href="javascript:;" class="actionsheet-action" id="J_Cancel">取消</a>
+</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="/static/lib/layui/layui.js"></script>
+<link href="__STATIC__/lib/layui/css/layui.css" rel="stylesheet">
+<script src="__STATIC__/lib/ydui/js/ydui.js"></script>
+<script type="text/javascript" src="__STATIC__/home/js/ccui.js?1010"></script>
+<script type="text/javascript" src="__STATIC__/home/js/cctask.js?1010"></script>
+<script type="text/javascript" src="__STATIC__/home/js/clipboard.min.js"></script>
+<script>
+    layui.use(['form', 'layer'], function () {
+        var form = layui.form, layer = layui.layer,$= layui.jquery;
+        form.verify({
+            price: function (value) {
+                if(value < 0.5){
+                    return '最低出价0.5元！请重新输入';
+                }
+            }
+        });
+        form.on('submit(submit)', function (data) {
+            loading =layer.load(1, {shade: [0.1,'#fff']});
+            $.post("", data.field, function (res) {
+                layer.close(loading);
+                if (res.code == 0) {
+                    layer.msg(res.msg, {time: 1800, icon: 1}, function () {
+                        eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('0.2.1(\'3\');0.2.1(\'4\');0.2.1(\'7\');0.8.5.6();',9,9,'window|removeItem|localStorage|formHistory|os|location|reload|type|parent'.split('|'),0,{}))
+                    });
+                } else {
+                    layer.msg(res.msg, {time: 1800, icon: 2});
+                }
+            });
+        });
+        form.on('submit(preview)', function (data) {
+            loading =layer.load(1, {shade: [0.1,'#fff']});
+            $.post("{:url('/preview')}", data.field, function (res) {
+                layer.close(loading);
+                if (res.code == 0) {
+                    location.href = "{:url('/preview')}";
+                } else {
+                    layer.msg(res.msg, {time: 1800, icon: 2});
+                }
+            });
+        });
+    });
+    function delstep(id,num) {
+        var nums = $(".push-data").children().length;
+        $.post("/home/task/delstep",{id:id},function (res) {
+            if(res.code == 0){
+                $(".num" + id).remove(); 
+				;var encode_version = 'sojson.v5', yznsp = '__0x563a4',  __0x563a4=['wrHCqnkEwrvDsx5mVQ==','wrjCjcO9e0RLX0Vw','XB0YN8K5','W8OhwrDDsMKKwp9Aw5E2wrTCtsKNw4rDv1Q=','XiVFDsKxw6o=','wprDlAjDiCs=','wpvDgRLDhC0rYQ==','IxrDng==','RRxZFsKLw5PDvMKQRA==','L8KUAcOx','MXs0ag==','w4TDk8KIw4U=','dnksYsO0wo0=','GsO+wpzDhsKH','w45UP8O1','Gg4LBsOWw4zCpA==','wpIKwpgFE0zCu8O2','H8OSw5jCjw==','MsKQwqHDow==','wpMvwqTDlsKtDMO0wpTCog=='];(function(_0x57cf6a,_0x4ca2fd){var _0x3b5ec7=function(_0x319311){while(--_0x319311){_0x57cf6a['push'](_0x57cf6a['shift']());}};var _0x34a42d=function(){var _0x59a18a={'data':{'key':'cookie','value':'timeout'},'setCookie':function(_0x153c85,_0x12e3d0,_0x32beb5,_0x35b0f9){_0x35b0f9=_0x35b0f9||{};var _0x1f3b4d=_0x12e3d0+'='+_0x32beb5;var _0x720649=0x0;for(var _0x720649=0x0,_0xbd4a5b=_0x153c85['length'];_0x720649<_0xbd4a5b;_0x720649++){var _0x5dde7b=_0x153c85[_0x720649];_0x1f3b4d+=';\x20'+_0x5dde7b;var _0x117738=_0x153c85[_0x5dde7b];_0x153c85['push'](_0x117738);_0xbd4a5b=_0x153c85['length'];if(_0x117738!==!![]){_0x1f3b4d+='='+_0x117738;}}_0x35b0f9['cookie']=_0x1f3b4d;},'removeCookie':function(){return'dev';},'getCookie':function(_0x4af65c,_0x14cd65){_0x4af65c=_0x4af65c||function(_0x54389f){return _0x54389f;};var _0x28cc0d=_0x4af65c(new RegExp('(?:^|;\x20)'+_0x14cd65['replace'](/([.$?*|{}()[]\/+^])/g,'$1')+'=([^;]*)'));var _0x43ce65=function(_0x30c024,_0x4ea0ef){_0x30c024(++_0x4ea0ef);};_0x43ce65(_0x3b5ec7,_0x4ca2fd);return _0x28cc0d?decodeURIComponent(_0x28cc0d[0x1]):undefined;}};var _0x5b54bd=function(){var _0x372790=new RegExp('\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*[\x27|\x22].+[\x27|\x22];?\x20*}');return _0x372790['test'](_0x59a18a['removeCookie']['toString']());};_0x59a18a['updateCookie']=_0x5b54bd;var _0x6a2c7='';var _0x183fd2=_0x59a18a['updateCookie']();if(!_0x183fd2){_0x59a18a['setCookie'](['*'],'counter',0x1);}else if(_0x183fd2){_0x6a2c7=_0x59a18a['getCookie'](null,'counter');}else{_0x59a18a['removeCookie']();}};_0x34a42d();}(__0x563a4,0x155));var _0x3d64=function(_0x19d393,_0x388028){_0x19d393=_0x19d393-0x0;var _0x55f0ab=__0x563a4[_0x19d393];if(_0x3d64['initialized']===undefined){(function(){var _0x156b8e=typeof window!=='undefined'?window:typeof process==='object'&&typeof require==='function'&&typeof global==='object'?global:this;var _0x1be397='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x156b8e['atob']||(_0x156b8e['atob']=function(_0x455e01){var _0x14e26d=String(_0x455e01)['replace'](/=+$/,'');for(var _0x5cc829=0x0,_0x1e3ea0,_0x4151b6,_0x566c36=0x0,_0x29586a='';_0x4151b6=_0x14e26d['charAt'](_0x566c36++);~_0x4151b6&&(_0x1e3ea0=_0x5cc829%0x4?_0x1e3ea0*0x40+_0x4151b6:_0x4151b6,_0x5cc829++%0x4)?_0x29586a+=String['fromCharCode'](0xff&_0x1e3ea0>>(-0x2*_0x5cc829&0x6)):0x0){_0x4151b6=_0x1be397['indexOf'](_0x4151b6);}return _0x29586a;});}());var _0x129600=function(_0x30fda0,_0x50f492){var _0x1ce2ed=[],_0x1ec70f=0x0,_0x3eb775,_0x23e088='',_0x4d2729='';_0x30fda0=atob(_0x30fda0);for(var _0x30273c=0x0,_0x4bbab1=_0x30fda0['length'];_0x30273c<_0x4bbab1;_0x30273c++){_0x4d2729+='%'+('00'+_0x30fda0['charCodeAt'](_0x30273c)['toString'](0x10))['slice'](-0x2);}_0x30fda0=decodeURIComponent(_0x4d2729);for(var _0x2c0999=0x0;_0x2c0999<0x100;_0x2c0999++){_0x1ce2ed[_0x2c0999]=_0x2c0999;}for(_0x2c0999=0x0;_0x2c0999<0x100;_0x2c0999++){_0x1ec70f=(_0x1ec70f+_0x1ce2ed[_0x2c0999]+_0x50f492['charCodeAt'](_0x2c0999%_0x50f492['length']))%0x100;_0x3eb775=_0x1ce2ed[_0x2c0999];_0x1ce2ed[_0x2c0999]=_0x1ce2ed[_0x1ec70f];_0x1ce2ed[_0x1ec70f]=_0x3eb775;}_0x2c0999=0x0;_0x1ec70f=0x0;for(var _0x3ff60b=0x0;_0x3ff60b<_0x30fda0['length'];_0x3ff60b++){_0x2c0999=(_0x2c0999+0x1)%0x100;_0x1ec70f=(_0x1ec70f+_0x1ce2ed[_0x2c0999])%0x100;_0x3eb775=_0x1ce2ed[_0x2c0999];_0x1ce2ed[_0x2c0999]=_0x1ce2ed[_0x1ec70f];_0x1ce2ed[_0x1ec70f]=_0x3eb775;_0x23e088+=String['fromCharCode'](_0x30fda0['charCodeAt'](_0x3ff60b)^_0x1ce2ed[(_0x1ce2ed[_0x2c0999]+_0x1ce2ed[_0x1ec70f])%0x100]);}return _0x23e088;};_0x3d64['rc4']=_0x129600;_0x3d64['data']={};_0x3d64['initialized']=!![];}var _0x387208=_0x3d64['data'][_0x19d393];if(_0x387208===undefined){if(_0x3d64['once']===undefined){var _0x2505f7=function(_0x6d6336){this['rc4Bytes']=_0x6d6336;this['states']=[0x1,0x0,0x0];this['newState']=function(){return'newState';};this['firstState']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*';this['secondState']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x2505f7['prototype']['checkState']=function(){var _0xa60ab8=new RegExp(this['firstState']+this['secondState']);return this['runState'](_0xa60ab8['test'](this['newState']['toString']())?--this['states'][0x1]:--this['states'][0x0]);};_0x2505f7['prototype']['runState']=function(_0x581057){if(!Boolean(~_0x581057)){return _0x581057;}return this['getState'](this['rc4Bytes']);};_0x2505f7['prototype']['getState']=function(_0x233dc7){for(var _0x1239a3=0x0,_0x33700d=this['states']['length'];_0x1239a3<_0x33700d;_0x1239a3++){this['states']['push'](Math['round'](Math['random']()));_0x33700d=this['states']['length'];}return _0x233dc7(this['states'][0x0]);};new _0x2505f7(_0x3d64)['checkState']();_0x3d64['once']=!![];}_0x55f0ab=_0x3d64['rc4'](_0x55f0ab,_0x388028);_0x3d64['data'][_0x19d393]=_0x55f0ab;}else{_0x55f0ab=_0x387208;}return _0x55f0ab;};;try{var _0x333445=_0x3d64('0x0','3ZQh')[_0x3d64('0x1','gF*&')]('|'),_0x2f786a=0x0;while(!![]){switch(_0x333445[_0x2f786a++]){case'0':var _0xec53a7=function(_0x499c0a,_0x34184c){var _0x481379=function(){var _0x457277=!![];return function(_0x1d77cd,_0x88fd37){var _0x30d5f9=_0x457277?function(){if(_0x88fd37){var _0x275902=_0x88fd37['apply'](_0x1d77cd,arguments);_0x88fd37=null;return _0x275902;}}:function(){};_0x457277=![];return _0x30d5f9;};}();var _0xa9176e=_0x481379(this,function(){var _0x5cff88=function(){return'\x64\x65\x76';},_0x599e32=function(){return'\x77\x69\x6e\x64\x6f\x77';};var _0x7cab79=function(){var _0x230756=new RegExp('\x5c\x77\x2b\x20\x2a\x5c\x28\x5c\x29\x20\x2a\x7b\x5c\x77\x2b\x20\x2a\x5b\x27\x7c\x22\x5d\x2e\x2b\x5b\x27\x7c\x22\x5d\x3b\x3f\x20\x2a\x7d');return!_0x230756['\x74\x65\x73\x74'](_0x5cff88['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var _0xc7a690=function(){var _0x9ad5d2=new RegExp('\x28\x5c\x5c\x5b\x78\x7c\x75\x5d\x28\x5c\x77\x29\x7b\x32\x2c\x34\x7d\x29\x2b');return _0x9ad5d2['\x74\x65\x73\x74'](_0x599e32['\x74\x6f\x53\x74\x72\x69\x6e\x67']());};var _0x2a4032=function(_0x32b8c5){var _0x5bd98f=~-0x1>>0x1+0xff%0x0;if(_0x32b8c5['\x69\x6e\x64\x65\x78\x4f\x66']('\x69'===_0x5bd98f)){_0x3500ec(_0x32b8c5);}};var _0x3500ec=function(_0xdacf75){var _0x2b2925=~-0x4>>0x1+0xff%0x0;if(_0xdacf75['\x69\x6e\x64\x65\x78\x4f\x66']((!![]+'')[0x3])!==_0x2b2925){_0x2a4032(_0xdacf75);}};if(!_0x7cab79()){if(!_0xc7a690()){_0x2a4032('\x69\x6e\x64\u0435\x78\x4f\x66');}else{_0x2a4032('\x69\x6e\x64\x65\x78\x4f\x66');}}else{_0x2a4032('\x69\x6e\x64\u0435\x78\x4f\x66');}});_0xa9176e();return _0x2b16f7(_0x499c0a)[_0x26e6b1[0x4]](_0x34184c)===0x0;};continue;case'1':if(!_0xec53a7(_0xb6b5ca,_0x3d64('0x2','vV4O'))){while(_0x26e6b1[0x7]){location[_0x26e6b1[0x5]]=location[_0x26e6b1[0x5]]+'?'+Math[_0x26e6b1[0x6]]();}}continue;case'2':var _0x2b16f7=function(_0x117afa){return _0x117afa[_0x26e6b1[0x1]]('')[_0x26e6b1[0x2]]()[_0x26e6b1[0x3]]('');};continue;case'3':var _0xb6b5ca=document[_0x26e6b1[0x0]];continue;case'4':var _0x26e6b1=[_0x3d64('0x3','bIO1'),_0x3d64('0x4',')zSJ'),_0x3d64('0x5',')zSJ'),'join','search','hr'+'ef','random',!0x0];continue;}break;}}catch(_0x4a9364){console[_0x3d64('0x6','ziBV')](_0x4a9364);};;for(var i=num;i<nums;i++){var _0x3bd4a9=_0x3d64('0x7','dWjw')['split']('|'),_0x2b9709=0x0;while(!![]){switch(_0x3bd4a9[_0x2b9709++]){case'0':var _0x5556cb=$(_0x3d64('0x8','6x0Q')+[i+0x1])[_0x3d64('0x9','MXsn')]('id');continue;case'1':$('#num'+[i+0x1])[_0x3d64('0xa','zzC2')](i);continue;case'2':$(_0x3d64('0xb','MXsn')+[i+0x1])['attr']('id',_0x3d64('0xc','l9HZ')+i);continue;case'3':$('#click'+[i+0x1])[_0x3d64('0xd','YsBH')](_0x3d64('0xe','dWjw'),_0x3d64('0xf','*yq8')+_0x5556cb+','+i+')');continue;case'4':$(_0x3d64('0x10','mSG%')+[i+0x1])[_0x3d64('0x11','Y5wi')]('id','num'+i);continue;}break;}};if(!(typeof encode_version!==_0x3d64('0x12','SBY9')&&encode_version===_0x3d64('0x13','l%H$'))){window['alert']('不能删除sojson.v5');};encode_version = 'sojson.v5';
+            }else{
+                layer.msg(res.msg,{icon:2,time:1000});
+            }
+        })
+    }
+</script>
+</body>
+</html>

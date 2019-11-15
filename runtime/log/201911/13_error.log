@@ -1,0 +1,3 @@
+---------------------------------------------------------------
+[ 2019-11-13T22:09:38+08:00 ] 127.0.0.1 GET local.receipt.com/
+[ error ] [0]不支持:memcache[D:\phpstudy\WWW\receipt\thinkphp\library\think\session\driver\Memcache.php:44]

@@ -1,0 +1,127 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body>
+<div class="user-top">
+    <header class="m-navbar no-bar">
+        <a onclick="history.back(-1)" class="navbar-item">
+            <i class="back-ico"></i>
+        </a>
+        <div class="navbar-center">
+            <span class="navbar-title">{$title}</span>
+        </div>
+    </header>
+    <div class="login-top">
+        <img src="{:sysconf('site_logo')}">
+    </div>
+</div>
+<div class="login-body">
+    <div class="m-cell">
+        <div class="cell-item">
+            <div class="cell-left">手机号：</div>
+            <div class="cell-right"><input id="tel" type="number" pattern="[0-9]*" class="cell-input" placeholder="请输入手机号" autocomplete="off" /></div>
+        </div>
+        <div class="cell-item">
+            <div class="cell-left">验证码：</div>
+            <div class="cell-right">
+                <input type="number" id="code" pattern="[0-9]*" class="cell-input" placeholder="请输入验证码" autocomplete="off" />
+                <em id="J_GetCode">发送验证码</em>
+            </div>
+        </div>
+        <div class="cell-item">
+            <div class="cell-left">密码：</div>
+            <div class="cell-right"><input id="password" type="password" class="cell-input" placeholder="请输入密码" autocomplete="off" /></div>
+        </div>
+    </div>
+    <button type="button" class="cc-btn red" id="login">注册</button>
+</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/ydui/js/ydui.js"></script>
+<script>
+    var $getCode = $('#J_GetCode');
+
+    /* 定义参数 */
+    $getCode.sendCode({
+        disClass: 'btn-disabled',
+        secs: 60,
+        run: false,
+        runStr: '{%s}秒后重新获取',
+        resetStr: '重新获取验证码'
+    });
+
+    $getCode.on('click', function () {
+        var tel = $('#tel').val();
+        var regedg = /^1[0-9]{10}$/;
+        if(tel==""){
+            YDUI.dialog.toast('请输入您的手机号码！', 'error', 1000);
+            return;
+        }
+        if(!regedg.test(tel)){
+            YDUI.dialog.toast('请输入正确的手机号码！', 'error', 1000);
+            return;
+        }
+        YDUI.dialog.loading.open('发送中');
+        $.post("{:url('home/login/sendcode')}",{tel:tel},function(data){
+            if(data.code ==0){
+                YDUI.dialog.loading.close();
+                $getCode.sendCode('start');
+                YDUI.dialog.toast('已发送', 'success', 1000);
+            }else if(data.code ==2){
+                YDUI.dialog.loading.close();
+                YDUI.dialog.toast(data.msg, 'error', 1000, function () {
+                    location.replace('/login');
+                });
+            }else{
+                YDUI.dialog.loading.close();
+                YDUI.dialog.toast(data.msg, 'error', 800);
+            }
+        });
+    });
+    $("#login").click(function(){
+        var tel = $('#tel').val();
+        var code = $('#code').val();
+        var password = $('#password').val();
+        var invite = "{$invite}";
+        if(tel==""){
+            YDUI.dialog.toast('请输入您的手机号码！', 'error', 1000);
+            return;
+        }
+        if(code==""){
+            YDUI.dialog.toast('请输入您的验证码！', 'error', 1000);
+            return;
+        }
+        if(password ==""){
+            YDUI.dialog.toast('请输入密码！', 'error', 1000);
+            return;
+        }
+        if (password.length > 16 || password.length < 6){
+            YDUI.dialog.toast('请输入6-16位密码！', 'error', 1000);
+            return; //密码太短或太长
+        };
+        YDUI.dialog.loading.open('提交中...');
+        $.post("",{tel:tel,code:code,password:password,invite:invite},function(data){
+            if(data.code ==0){
+                YDUI.dialog.loading.close();
+                YDUI.dialog.toast(data.msg, 'success', 1000, function () {
+                    if("{$invite}" == ''){
+                        location.replace('/user');
+                    }else{
+                        location.href = "/down"
+                    }
+
+                });
+            }else if(data.code ==2){
+                YDUI.dialog.loading.close();
+                YDUI.dialog.toast(data.msg, 'error', 1000, function () {
+                    location.replace('/login');
+                });
+            }else{
+                YDUI.dialog.loading.close();
+                YDUI.dialog.toast(data.msg, 'error', 800);
+            }
+        });
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+{include file="common/blank" /}
+<![endif]-->
+<title>财务明细管理 - 初创网络</title>
+<style>
+    .list_order{
+        height: 24px!important;
+        line-height: 24px!important;
+        border: #FC6 solid 1px!important;
+    }
+</style>
+</head>
+<body>
+<nav class="breadcrumb">
+    <i class="Hui-iconfont">&#xe67f;</i>
+    首页 <span class="c-gray en">&gt;</span>
+    财务管理 <span class="c-gray en">&gt;</span>
+    财务明细列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" >
+    <i class="Hui-iconfont">&#xe68f;</i>
+</a>
+</nav>
+<div class="page-container">
+    <div class="text-c">
+        日期范围：
+        <input type="text" id="logmin" name="logmin" class="input-text Wdate" style="width:120px;" readonly="">
+        -
+        <input type="text" id="logmax" name="logmax" class="input-text Wdate" style="width:120px;" readonly="">
+        <input type="text" class="input-text" style="width:250px" placeholder="输入用户ID" id="keyword" name="keyword">
+        <button type="button" class="btn btn-success radius" id="search" name="search"><i class="Hui-iconfont">&#xe665;</i> 搜明细</button>
+    </div>
+    <div class="mt-20">
+        <table class="layui-table" id="list" lay-filter="list"></table>
+    </div>
+</div>
+<!--_footer 作为公共模版分离出去-->
+{include file="common/footer" /}
+<!--/_footer 作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<link href="/static/lib/layui/css/layui.css" rel="stylesheet">
+<script type="text/javascript" src="/static/lib/layui/layui.js"></script>
+<script type="text/html" id="action">
+    <a class="btn btn-warning size-MINI radius" lay-event="del">删除</a>
+</script>
+<script>
+    layui.use(['table','form','laydate'], function() {
+        var table = layui.table,form = layui.form,$ = layui.jquery, laydate = layui.laydate;
+        //日期范围
+        laydate.render({
+            elem: '#logmin'
+            ,type: 'date'
+            ,done: function(value, date, startDate){
+            }
+        });
+        laydate.render({
+            elem: '#logmax'
+            ,type: 'date'
+            ,done: function(value, date, endDate){
+            }
+        });
+        var tableIn = table.render({
+            id: 'product',
+            elem: '#list',
+            url: '{:url("index")}',
+            method: 'post',
+            cellMinWidth: 80,
+            page:true,
+            cols: [[
+                {field: 'id', title: '序号', width: 80, fixed: true},
+                {field: 'uid', title: '用户ID', width:100 , align: 'center'},
+                {field: 'lev', title: '下级ID', width:100, align: 'center'},
+                {field: 'type', title: '变动类型', width:100, align: 'center',templet: function(d){
+                        if (d.type=="2"){
+                            return '<span class="layui-btn layui-btn-xs layui-btn-normal">保证金</span>';
+                        }else if (d.type=="3"){
+                            return '<span class="layui-btn layui-btn-xs layui-btn-warm">服务费</span>';
+                        }else if (d.type=="6"){
+                            return '<span class="layui-btn layui-btn-xs">提现</span>';
+                        }else{
+                            return '<span class="layui-btn layui-btn-xs">用户余额</span>';
+                        }
+                    }},
+                {field: 'mode', title: '增减', width:80, align: 'center'},
+                {field: 'money', title: '变动金额', width:100, align: 'center'},
+                {field: 'moneys', align: 'center',  width:100 ,title: '变动后金额'},
+                {field: 'ctime', align: 'center', width:200 ,title: '创建时间'},
+                {field: 'remark', title: '备注', align: 'center'},
+                {width: 160, align: 'center', toolbar: '#action'}
+            ]],
+            limit:90
+        });
+        //搜索
+        $('#search').on('click', function () {
+            var keyword = $('#keyword').val();
+            var logmin = $('#logmin').val();
+            var logmax = $('#logmax').val();
+
+            tableIn.reload({ page: {page: 1}, where: {keyword: keyword,logmin:logmin,logmax:logmax}});
+        });
+        table.on('tool(list)', function(obj) {
+            var data = obj.data;
+            if (obj.event === 'del'){
+                var type = 'record';
+                layer.confirm('您确定要删除该记录吗？', function(index){
+                    var loading = layer.load(1, {shade: [0.1, '#fff']});
+                    $.post("{:url('admin/system/del')}",{id:data.id,type:type},function(res){
+                        layer.close(loading);
+                        if(res.code == 0){
+                            layer.msg(res.msg,{time:1000,icon:1});
+                            tableIn.reload();
+                        }else{
+                            layer.msg('操作失败！',{time:1000,icon:2});
+                        }
+                    });
+                    layer.close(index);
+                });
+            }
+        });
+    })
+</script>
+</body>
+</html>

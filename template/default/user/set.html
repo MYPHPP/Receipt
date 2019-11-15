@@ -1,0 +1,107 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body>
+<header class="m-navbar message-bar no-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="cash-list">
+    <div class="m-cell">
+        <div class="cell-item">
+            <div class="cell-left">头像：</div>
+            <div class="cell-right cc-upbtn"><img src="{$user.avatar}" class="avatar-img"><input type="hidden" id="avatar" value="{$user.avatar}"></div>
+        </div>
+        <div class="cell-item">
+            <div class="cell-left">手机号：</div>
+            <div class="cell-right user-set"><input type="number" pattern="[0-9]*" class="cell-input" placeholder="请输入手机号" autocomplete="off" value="{$user.tel}" disabled/></div>
+        </div>
+        <div class="cell-item">
+            <div class="cell-left">真实姓名：</div>
+            <div class="cell-right user-set"><input type="text" id="real_name" class="cell-input" placeholder="请输入真实姓名（用于提现核对）" value="{$user.real_name}" autocomplete="off" /></div>
+        </div>
+        <div class="cell-item">
+            <div class="cell-left">支付宝：</div>
+            <div class="cell-right user-set"><input type="text" id="alipay" class="cell-input" placeholder="请输入提现收款支付宝账号" value="{$user.alipay}" autocomplete="off" /></div>
+        </div>
+    </div>
+    <button type="button" id="doset" class="cc-btn red" style="margin-bottom:.5rem;">提交修改</button>
+    <button type="button" id="logout" class="cc-btn link-red">退出登陆</button>
+</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="/static/lib/layui/layui.js"></script>
+<link href="__STATIC__/lib/layui/css/layui.css" rel="stylesheet">
+<script type="text/javascript" src="__STATIC__/lib/ydui/js/ydui.js"></script>
+<script>
+    $('#logout').on('click',function () {
+        YDUI.dialog.confirm('提示',  '您确定退出登陆吗？',  [
+            {
+                txt: '取消',
+                color: false, /* false:黑色 true:绿色 或 使用颜色值 */
+                callback: function () { /* 按钮回调 */ }
+            },
+            {
+                txt: '确定',
+                color: true,
+                callback: function () {
+                    var storage=window.localStorage;
+                    storage.clear();
+                    location.href = "{:url('user/logout')}";
+                }
+            }
+        ]);
+    })
+    $('#doset').on('click',function () {
+        var avatar = $('#avatar').val();
+        var real_name = $('#real_name').val();
+        var alipay = $('#alipay').val();
+        if(real_name == '' || alipay == ''){
+            YDUI.dialog.toast('请输入真实姓名/支付宝！','error',1000);
+            return;
+        }
+        $.post("",{avatar:avatar,real_name:real_name,alipay:alipay},function (res) {
+            if(res.code == 0){
+                YDUI.dialog.toast('修改成功！','success',1000,function () {
+                    location.href = "{:url('/user')}";
+                })
+            }else{
+                YDUI.dialog.toast(res.msg,'error',1000);
+            }
+        })
+    })
+    layui.use('upload', function() {
+        var upload = layui.upload;
+        var uploadInst = upload.render({
+            elem: '.cc-upbtn',
+            url: '/home/Upfile/uploads',
+            accept:'images',
+            acceptMime: 'image/*',
+            multiple: false // 多图上传,不开启
+            ,before: function(obj){
+                obj.preview(function(index, file, result,upload){
+                    loading =layer.load(1, {shade: [0.1,'#fff']});
+                });
+            },
+            done: function(res){
+                layer.close(loading);
+                if(res.code>0){
+                    $('.avatar-img').attr('src',res.url);
+                    $('#avatar').val(res.url);
+                }else{
+                    //如果上传失败
+                    return YDUI.dialog.toast('上传失败','error',1000);
+                }
+            },
+            error: function(){
+
+            }
+        });
+    })
+</script>
+</body>
+</html>

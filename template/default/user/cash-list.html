@@ -1,0 +1,21 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body>
+<header class="m-navbar message-bar no-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="cash-list">
+    <ul>
+        <li><a href="{:url('/user/cash?type=1')}"><i class="Hui-iconfont Hui-iconfont-hongbao"></i>任务币<em class="Hui-iconfont Hui-iconfont-arrow2-right"></em></a></li>
+        <li><a href="{:url('/user/cash?type=2')}"><i class="Hui-iconfont Hui-iconfont-hongbao2"></i>保证金<em class="Hui-iconfont Hui-iconfont-arrow2-right"></em></a></li>
+    </ul>
+</div>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+</body>
+</html>

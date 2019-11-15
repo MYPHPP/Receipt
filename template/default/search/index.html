@@ -1,0 +1,59 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body>
+<header class="m-navbar indexbar no-bar navbar-fixed">
+    <form action="{:url('/search')}" id="soform">
+        <i class="Hui-iconfont Hui-iconfont-search2"></i>
+        <input type="text" id="keyword" name="keyword" placeholder="任务标题，编号">
+    </form>
+    <button type="button" class="cc-btn search-no" id="no">取消</button>
+</header>
+<div class="index-body task-content top1">
+    <div class="search-body {$hidden}">
+        <h3>搜索历史<em class="Hui-iconfont Hui-iconfont-del3" id="del"></em></h3>
+        <div class="search-keyword">
+            <volist name="Think.Cookie.keyword" id="vkey">
+                <span><a href="{:url('/search?keyword=' . $vkey)}">{$vkey}</a></span>
+            </volist>
+        </div>
+    </div>
+    <if($hidden == 'hidden')>
+    <ul class="search-data">
+        <volist name="task" id="vt">
+            <li>
+                <a href="{:url('/detail/' . $vt.id)}">
+                    <img src="{$vt.avatar}">
+                    <div class="content-top">
+                        <h3>{$vt.title}</h3>
+                        <em>+{$vt.price}元</em>
+                    </div>
+                    <div class="content-foot">
+                        <span>{$vt.tname}</span>
+                        <span>{$vt.name}</span>
+                        <em>{$vt.passnum}人已完成|剩余数{$vt.number - $vt.jnum}</em>
+                    </div>
+                </a>
+            </li>
+        </volist>
+    </ul>
+    </if>
+</div>
+
+<include file="common/footer"/>
+<script>
+    $('#no').on('click',function () {
+        $('.search-body').show();
+        $('.search-data').hide();
+        $('#no').hide();
+    })
+    $('#del').on('click',function () {
+        $.post("",{clear:1},function (res) {
+            if(res.code == 0){
+                location.href = "{:url('/search')}";
+            }
+        })
+    })
+</script>
+</body>
+</html>

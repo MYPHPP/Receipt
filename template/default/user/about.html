@@ -1,0 +1,26 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body style="background: #F5F5F5;">
+<header class="m-navbar message-bar no-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="top-logo top1">
+    <img src="{:sysconf('site_logo')}">
+</div>
+<div class="nav">
+    <a href="{:url('/service/1')}">
+        {:sysconf('site_name')}用户协议
+        <em class="Hui-iconfont Hui-iconfont-arrow2-right"></em>
+    </a>
+</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/ydui/js/ydui.js"></script>
+</body>
+</html>

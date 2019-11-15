@@ -1,0 +1,11 @@
+---------------------------------------------------------------
+[ 2019-11-11T13:40:32+08:00 ] 120.34.160.84 GET new.rw133.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000568s ] mysql:host=127.0.0.1;port=3306;dbname=new_rw133_cn;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_ad` [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT * FROM `box_ad` WHERE  `status` = 0 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_user_order` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT `tid` FROM `box_user_order` WHERE  `uid` IS NULL LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_task` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT * FROM `box_task` WHERE  `status` = 0  AND `is_hot` = 0  AND (  number != jnum ) ORDER BY `sort` DESC,`add_time` DESC [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `box_config` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT `value` FROM `box_config` WHERE  `code` = 'site_title' LIMIT 1 [ RunTime:0.000219s ]

@@ -1,0 +1,103 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body>
+<header class="m-navbar message-bar publish-bar navbar-fixed">
+    <a href="{:url('/user')}" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+    <div class="publish-top">
+        <ul>
+            <li><span class="status <if($status == 0)>active</if>" data-status="0">已上架</span></li>
+            <li><span class="status <if($status == 3)>active</if>" data-status="3">待上架</span></li>
+        </ul>
+    </div>
+</header>
+<div class="publish-body task-content">
+    <ul>
+        <volist name="task" id="vt" empty="$empty">
+            <li>
+                <a href="{:url('/detail/' . $vt.id)}">
+                    <img src="{$user.avatar}">
+                    <div class="content-top">
+                        <h3>{$vt.title}</h3>
+                        <em>+{$vt.price}元</em>
+                    </div>
+                    <div class="content-foot">
+                        <span>{$vt.tname}</span>
+                        <span>{$vt.remark}</span>
+                        <em>{$vt.jnum}已接单|{$vt.passnum}人已完成|剩余数{$vt.number - $vt.jnum}</em>
+                    </div>
+                </a>
+                <div class="publish-foot">
+
+                    <if($vt.status == 0)>
+                        <a href="{:url('/edit/task/' . $vt.id)}" class="cc-btn pushbtn red">编辑</a>
+                        <button type="button" class="cc-btn pushbtn open" data-id="{$vt.id}" data-status="3">下架</button>
+                        <!--button type="button" class="cc-btn pushbtn number" data-id="{$vt.id}" data-status="0">数量</button>
+                    <button type="button" class="cc-btn pushbtn price" data-id="{$vt.id}" data-status="0">单价</button-->
+                    <else>
+                      	<if($vt.bao == 0)>
+                          	<button type="button" class="cc-btn pushbtn bao" data-id="{$vt.id}" data-bao="1">退保</button>
+                          	<button type="button" class="cc-btn pushbtn red open" data-id="{$vt.id}" data-status="0">上架</button>
+                        <else>
+                          	<button type="button" class="cc-btn pushbtn red" data-id="{$vt.id}" data-status="0">已退</button>
+                        </if>
+                        <a href="{:url('/edit/task/' . $vt.id)}" class="cc-btn pushbtn">编辑</a>
+                    </if>
+                        <a href="{:url('/order/' . $vt.id)}" class="cc-btn pushbtn">订单</a>
+                </div>
+            </li>
+        </volist>
+    </ul>
+</div>
+<div class="user-push">
+    <a href="{:url('/pushtask')}">
+        <i class="Hui-iconfont Hui-iconfont-add"></i>
+    </a>
+</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
+<script>
+    $('.status').on('click',function () {
+        $('.status').removeClass('active');
+        $(this).addClass('active');
+        var status = $(this).data('status');
+        location.href = "?status=" + status;
+    })
+    $('.open').on('click',function () {
+        var id = $(this).data('id');
+        var status = $(this).data('status');
+        $.post("{:url('task/updateStatus')}",{id:id,status:status},function (res) {
+            if(res.code == 0){
+                layer.msg('更新成功！',{icon:1,time:1000},function () {
+                    location.reload();
+                });
+            }else{
+                layer.msg(res.msg,{icon:2,time:1000});
+            }
+        })
+    })
+  	$('.bao').on('click',function () {
+        var id = $(this).data('id');
+        var bao = $(this).data('bao');
+        $.post("{:url('task/updateStatus')}",{id:id,bao:bao},function (res) {
+            if(res.code == 0){
+                layer.msg('更新成功！',{icon:1,time:1000},function () {
+                    location.reload();
+                });
+            }else{
+                layer.msg(res.msg,{icon:2,time:1000});
+            }
+        })
+    })
+    $('.price').on('click',function () {
+
+    })
+</script>
+</body>
+</html>

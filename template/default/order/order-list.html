@@ -1,0 +1,96 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body>
+<header class="m-navbar message-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="publish-body task-content" style="padding-top:.8rem">
+    <ul>
+        <volist name="order" id="vo" empty="$empty">
+            <li>
+                <a href="{:url('/orders/' . $vo.id)}">
+                    <img src="{$vo.logo == '' ? get_user_info($vo['uid'],'avatar') : $vo.logo}">
+                    <div class="content-top">
+                        <h3>{$vo.title}</h3>
+                        <em>佣金：{$vo.money}元</em>
+                    </div>
+                    <div class="content-foot">
+                        <span>{$vo.tname}</span>
+                        <span>接单人：{$vo.jid}</span>
+                        <em>交单:{$vo.jtime|date="Y-m-d H:i:s",###}</em>
+                    </div>
+                </a>
+                <div class="publish-foot">
+                    <if($vo.status == 2)>
+                        <a href="javascript:;" class="cc-btn pushbtn red pass" data-id="{$vo.id}" data-status="0" data-msg="通过">通过</a>
+                        <button type="button" class="cc-btn pushbtn pass" data-id="{$vo.id}" data-status="3" data-msg="驳回">驳回</button>
+
+                    <elseif($vo.status == 0)>
+                        <button type="button" class="cc-btn pushbtn red">已通过</button>
+                    <elseif($vo.status == 3)>
+                    <button type="button" class="cc-btn pushbtn">已驳回</button>
+                    <else>
+                    <button type="button" class="cc-btn pushbtn">任务中</button>
+                    </if>
+
+                </div>
+            </li>
+        </volist>
+    </ul>
+</div>
+
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/ydui/js/ydui.js"></script>
+<script>
+    $('.status').on('click',function () {
+        $('.status').removeClass('active');
+        $(this).addClass('active');
+        var status = $(this).data('status');
+        location.href = "?status=" + status;
+    })
+    $('.pass').on('click',function () {
+        var id = $(this).data('id');
+        var status = $(this).data('status');
+        var msg = $(this).data('msg');
+        YDUI.dialog.confirm('请确认',  '您确定要' + msg + '该订单吗？',  [
+            {
+                txt: '取消',
+                color: false, /* false:黑色 true:绿色 或 使用颜色值 */
+                callback: function () {  }
+            },
+            {
+                txt: '确定',
+                color: true,
+                callback: function () {
+                    loading =layer.load(1, {shade: [0.1,'#fff']});
+                    order(id,status)
+                }
+            }
+        ]);
+    })
+    $('.price').on('click',function () {
+
+    })
+    function order(id,status) {
+        $.post("", {id:id,status:status}, function (res) {
+            layer.close(loading);
+            if (res.code == 0) {
+                layer.msg(res.msg, {time: 1800, icon: 1}, function () {
+                    window.parent.location.reload();
+                });
+            } else {
+                layer.msg(res.msg, {time: 1800, icon: 2});
+            }
+        });
+    }
+</script>
+</body>
+</html>

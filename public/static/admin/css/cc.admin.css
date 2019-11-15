@@ -1,0 +1,6 @@
+/* Manage */
+.task-add{width: 520px;float: left;}
+.task-mobile{width: 350px;float: left;position: relative;}
+.task-step-add{width: 100%;padding-left:2px;}
+.task-step-add button{padding:8px 8px;float: left;border-radius: .1rem;border:none;margin-right: 10px;}
+.task-step-add button:last-child{margin-right: 0;}

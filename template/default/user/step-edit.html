@@ -1,0 +1,33 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body>
+<div class="m-cell">
+    <div class="cell-item">
+        <div class="cell-left">手机号：</div>
+        <div class="cell-right"><input type="number" pattern="[0-9]*" class="cell-input" placeholder="请输入手机号" autocomplete="off" /></div>
+    </div>
+    <div class="cell-item">
+        <label class="cell-right cell-arrow">
+            <select class="cell-select">
+                <option value="">支付方式</option>
+                <option value="1">支付宝</option>
+                <option value="2">微信</option>
+                <option value="3">财付通</option>
+            </select>
+        </label>
+    </div>
+    <div class="cell-item">
+        <div class="cell-left">性别：</div>
+        <label class="cell-right cell-arrow">
+            <select class="cell-select">
+                <option value="">请选择性别</option>
+                <option value="1">男</option>
+                <option value="2">女</option>
+                <option value="3">未知</option>
+            </select>
+        </label>
+    </div>
+</div>
+</body>
+</html>

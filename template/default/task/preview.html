@@ -1,0 +1,209 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+<script type="text/javascript" src="/static/lib/layui/layui.js"></script>
+<link href="__STATIC__/lib/layui/css/layui.css" rel="stylesheet">
+</head>
+<body style="background: #f5f5f5;">
+<header class="m-navbar detail-bar no-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+    <a href="#" class="navbar-item">
+        <i class="Hui-iconfont">&#xe6f9;</i>
+    </a>
+</header>
+<div class="detail-top">
+    <div class="task-info">
+        <img src="{:get_user_info($user.id,'avatar')}">
+        <h3>{$task.title}<em>{$task.price}元</em></h3>
+        <p>{:get_tname($task.type)}|{$task.name}</p>
+        <ul>
+            <li>
+                <h4>{$task.number}</h4>
+                <span>剩余数量</span>
+            </li>
+            <li>
+                <h4>0</h4>
+                <span>完成数量</span>
+            </li>
+            <li>
+                <h4>{:get_time($task.outtime)}</h4>
+                <span>做单时间</span>
+            </li>
+            <li>
+                <h4>{:get_time($task.passtime)}</h4>
+                <span>审核时间</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="detail-body">
+    <h3>做单说明</h3>
+    <!--p>1.任务赏金已托管到平台，赚钱有保障。</p-->
+    <p>1.请先报名再做任务，否则无赏金</p>
+    <p>2.需要打钱、投资的悬赏请谨慎，否则后果自负。</p>
+    <p>3.有奖举报：发现同类平台任务单、拉人、线下交易者找客服举报重奖。</p>
+    <h3>任务说明</h3>
+    <p>{$task.remark}</p>
+</div>
+<div class="task-video">
+    <h3>做单视频<i class="Hui-iconfont Hui-iconfont-bofang"></i> <em class="Hui-iconfont Hui-iconfont-arrow2-right"></em></h3>
+</div>
+<div class="detail-content">
+    <h3>做单步骤<span>（请参照以下步骤完成做单）</span></h3>
+    <ul>
+        <volist name="step" id="vo">
+            <eq name="vo.type" value="url">
+                <li class="num{$vo.id}">
+                    <div class="left">
+                        <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                    </div>
+                    <div class="right">
+                        <h3>{$vo.mark}</h3>
+                        <p>
+                            <a href="javascript:;" data-url="{$vo.txt}" class="detail-btn link">打开链接</a>
+                            <a href="javascript:;" class="detail-btn copy" data-clipboard-action="copy" data-clipboard-text="{$vo.txt}">复制链接</a>
+                        </p>
+                    </div>
+                </li>
+            </eq>
+            <eq name="vo.type" value="ewm">
+                <li class="num{$vo.id}">
+                    <div class="left">
+                        <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                    </div>
+                    <div class="right">
+                        <h3>{$vo.mark}</h3>
+                        <img src="{$vo.txt}" id="ewm" class="ewms">
+                        <a href="javascript:;" data-ewm="{$vo.txt}" class="detail-btn ewm ewms">保存扫码</a>
+                    </div>
+                </li>
+            </eq>
+            <eq name="vo.type" value="copy">
+                <li class="num{$vo.id}">
+                    <div class="left">
+                        <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                    </div>
+                    <div class="right">
+                        <h3>{$vo.mark}</h3>
+                        <input type="text" value="{$vo.txt}" class="cc-input" disabled>
+                        <a href="javascript:;" class="detail-btn copy" data-clipboard-action="copy" data-clipboard-text="{$vo.txt}">复制数据</a>
+                    </div>
+                </li>
+            </eq>
+            <eq name="vo.type" value="pic">
+                <li class="num{$vo.id}">
+                    <div class="left">
+                        <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                    </div>
+                    <div class="right">
+                        <h3>{$vo.mark}</h3>
+                        <div class="pic">
+                            <div class="remark">说明图</div>
+                            <img src="{$vo.txt}" class="pics">
+                        </div>
+                    </div>
+                </li>
+            </eq>
+            <eq name="vo.type" value="mark">
+                <li class="num{$vo.id}">
+                    <div class="left">
+                        <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                    </div>
+                    <div class="right">
+                        <h3>{$vo.mark}</h3>
+                        <div class="pic">
+                            <div class="remark">验证图</div>
+                            <img src="{$vo.txt}" class="pics">
+                            <img id="yzt{$i}" class="hidden">
+                            <input type="hidden" id="yz{$i}" name="yz[]">
+                            <div class="cc-upload btn-upload" id="upinput{$i}">
+                                <button type="button" class="cc-upbtn red" id="upload{$i}" lay-data="{id:{$i}}"><i class="Hui-iconfont Hui-iconfont-upload"></i><br />上传验证图</button>
+                            </div>
+                            <script>
+                                layui.use('upload', function() {
+                                    var upload = layui.upload;
+                                    var uploadInst = upload.render({
+                                        elem: '.cc-upbtn',
+                                        url: '/home/Upfile/uploads',
+                                        accept:'images',
+                                        acceptMime: 'image/*',
+                                        multiple: false // 多图上传,不开启
+                                        ,before: function(obj){
+                                            obj.preview(function(index, file, result,upload){
+                                                loading =layer.load(1, {shade: [0.1,'#fff']});
+                                            });
+                                        },
+                                        done: function(res){
+                                            layer.close(loading);
+                                            if(res.code>0){
+                                                $('#upinput{$i}').hide();
+                                                $('#yzt{$i}').attr('src', res.url);
+                                                $('#yzt{$i}').show();
+                                                $('#yz{$i}').val(res.url);
+                                            }else{
+                                                //如果上传失败
+                                                return YDUI.dialog.toast('上传失败','error',1000);
+                                            }
+                                        },
+                                        error: function(){
+
+                                        }
+                                    });
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </li>
+            </eq>
+            <eq name="vo.type" value="data">
+                <li class="num{$vo.id}">
+                    <div class="left">
+                        <span id="num{$i}" data-id="{$vo.id}">{$i}</span>
+                    </div>
+                    <div class="right">
+                        <h3>{$vo.mark}</h3>
+                        <input type="text" class="cc-input yztxt" id="yztxt" placeholder="请按要求输入文字内容">
+                    </div>
+                </li>
+            </eq>
+        </volist>
+    </ul>
+</div>
+<div class="box_warp hidden">
+    <div class="box_info">
+        <div class="box_head">
+            <h3>赚赏金，三步走</h3>
+        </div>
+        <div class="box_content">
+            <h4><span>1</span>浏览悬赏</h4>
+            <p>请仔细阅读悬赏限制条件及要求，确保能完成后点击页面底部的"点击报名"按钮，先报名再做单，还可以查看做单视频，更加全面了解做单要求。</p>
+            <h4><span>2</span>按步骤操作</h4>
+            <p>请根据步骤要求进行操作，并在验证图步骤截图上传提交验证。</p>
+            <h4><span>3</span>正确提交</h4>
+            <p>检查上传截图及验证文字内容，确认无误后点击页面底部"提交验证"按钮提交，等待审核通过，发放赏金。</p>
+            <p>
+                <label for="choose_1" class="choose_label choose_check" style="">
+                    <input id="choose_1" type="checkbox" name="choose" class="choose_input" value="1">
+                </label>
+                <i class="Hui-iconfont choose" data-lightbox="0">&#xe6a8;</i>
+                <em>不再提示</em>
+            </p>
+            <ul>
+                <li><a href="{:url('/service/1')}" class="ccbtn">新人须知</a></li>
+                <li><a href="{:url('/video')}" class="ccbtn">做单视频</a></li>
+                <li><a href="javascript:;" class="ccbtn red" id="close">开始赚钱</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="more_gn">—— 更多精彩，敬请期待！ ——</div>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script>
+
+</script>
+</body>
+</html>

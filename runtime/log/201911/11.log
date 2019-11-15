@@ -1,0 +1,49 @@
+---------------------------------------------------------------
+[ 2019-11-11T13:40:32+08:00 ] 120.34.160.84 GET new.rw133.cn/
+[运行时间：0.050718s] [吞吐率：19.72req/s] [内存消耗：3,700.03kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/new.rw133.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__cfduid=da5af657e12def87621f6ef42fda4a1f41571989139; PHPSESSID=bohpkpnnlvqv3afc9bpod8rgrd',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://182.92.160.97:36675/site',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'new.rw133.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'new',
+  'type' => 'memcache',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ /www/wwwroot/new.rw133.cn/application/home/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] ../template/default/index/index.html [ array (
+  0 => 'user',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'banner',
+  4 => 'task',
+  5 => 'title',
+) ]
+[ info ] [ LOG ] INIT File

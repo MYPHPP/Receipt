@@ -1,0 +1,26 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body>
+<header class="m-navbar message-bar no-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="video-body article-read">
+    <div class="article-top">
+        <h3>{$data.title}</h3>
+        <em>{$data.ctime|date="Y-m-d H:i:s",###}</em>
+    </div>
+
+    <div class="service-body">
+        {$data.content}
+    </div>
+</div>
+<div class="more_gn">—— 更多精彩，敬请期待！ ——</div>
+<include file="common/footer"/>
+</body>
+</html>

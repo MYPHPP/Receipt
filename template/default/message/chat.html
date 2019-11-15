@@ -1,0 +1,41 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body style="background: #F5F5F5;">
+<header class="m-navbar message-bar no-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="chat-body">
+    <volist name="chat" id="vo">
+        <div class="chat-msg">
+            <div class="chat-avatar <if($vo.fid == $user.id)>right</if>">
+                <img src="{$vo.avatar}">
+                <if($vo.fid == 0)><span>客服消息</span></if>
+            </div>
+            <div class="chat-content <if($vo.fid == $user.id)>right</if>"  <if($i == 1)>style="width:80%;"</if>>
+                <if($i == 1)>
+                <div class="chat-task">
+                    <h3>{$task.title}</h3>
+                    <p><span>{$task.tname}</span><span>{$task.name}</span><em>{$task.price}元</em></p>
+                </div>
+                </if>
+                <if($vo.txt == 'txt')>
+                    <p>{$vo.content}</p>
+                <elseif($vo.txt == 'system')>
+                    <div class="msg-remind">{$vo.content}</div>
+                <else>
+                    <img src="{$vo.content}">
+                </if>
+            </div>
+        </div>
+    </volist>
+</div>
+<div class="more_gn">—— 更多精彩，敬请期待！ ——</div>
+<include file="common/chat-footer"/>
+</body>
+</html>

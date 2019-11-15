@@ -1,0 +1,158 @@
+<include file="common/header"/>
+<title>{$title} - {:sysconf('site_title')}</title>
+</head>
+<body style="background: #F5F5F5">
+<div class="user-top">
+    <header class="m-navbar no-bar">
+        <div class="navbar-center">
+            <span class="navbar-title">{$title}</span>
+        </div>
+        <a href="{:url('/user/set')}" class="navbar-item">
+            <i class="Hui-iconfont Hui-iconfont-manage" style="font-size: .4rem;"></i>
+        </a>
+    </header>
+    <div class="user-info">
+        <img src="{$user.avatar}">
+        <h3>{$user.tel}</h3>
+        <p>UID: {$user.id}</p>
+    </div>
+    <div class="user-nav">
+        <ul>
+            <li>
+                <a href="{:url('/mytask?status=1')}">
+                    <img src="__STATIC__/home/img/user-nav1.png">
+                    <h4>已报名</h4>
+                </a>
+            </li>
+            <li>
+                <a href="{:url('/mytask?status=2')}">
+                    <img src="__STATIC__/home/img/user-nav2.png">
+                    <h4>审核中</h4>
+                </a>
+            </li>
+            <li>
+                <a href="{:url('/mytask?status=3')}">
+                    <img src="__STATIC__/home/img/user-nav3.png">
+                    <h4>不合格</h4>
+                </a>
+            </li>
+            <li>
+                <a href="{:url('/mytask?status=0')}">
+                    <img src="__STATIC__/home/img/user-nav4.png">
+                    <h4>已完成</h4>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="user-record">
+    <h3>我的资产</h3>
+    <em><span><a href="{:url('/recharge')}">充值</a></span><span><a href="{:url('/user/cashlist')}">提现</a></span><span><a href="{:url('/user/record')}">账单</a></span></em>
+    <ul>
+        <li>
+            <h3>{$user.money}</h3>
+            <span>账户余额</span>
+        </li>
+        <li>
+            <h3>{:number_format($user.sum - $user.money,2)}</h3>
+            <span>提现总额</span>
+        </li>
+        <li>
+            <h3>{$user.bial}</h3>
+            <span>保证金余额</span>
+        </li>
+        <li>
+            <h3>{$user.d_bial}</h3>
+            <span>冻结保证金</span>
+        </li>
+    </ul>
+</div>
+<div class="user-navs">
+    <ul>
+        <li>
+            <a href="{:url('/publish?status=0')}">
+                <i class="Hui-iconfont Hui-iconfont-fabu"></i>
+                <h3>发布管理</h3>
+                <em class="Hui-iconfont Hui-iconfont-arrow2-right"></em>
+            </a>
+        </li>
+        <li>
+            <a href="{:url('/user/invite')}" class="invite-btns">
+                <i class="Hui-iconfont Hui-iconfont-share2"></i>
+                <h3>邀请好友</h3>
+                <em class="Hui-iconfont Hui-iconfont-arrow2-right"></em>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" id="J_ShowActionSheet">
+                <i class="Hui-iconfont Hui-iconfont-kefu"></i>
+                <h3>联系我们</h3>
+                <em class="Hui-iconfont Hui-iconfont-arrow2-right"></em>
+            </a>
+        </li>
+        <li>
+            <a href="{:url('/about')}">
+                <i class="Hui-iconfont Hui-iconfont-tishi"></i>
+                <h3>关于我们</h3>
+                <em class="Hui-iconfont Hui-iconfont-arrow2-right"></em>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="box_warp hidden">
+    <div class="box_info box-invite">
+        <img src="/getqrcode?uid={$user.id}">
+        <p>长按保存发送二维码给好友注册一起赚钱！</p>
+        <ul>
+            <li><button type="button" class="cc-btn" id="open">打开链接</button></li>
+            <li><button type="button" class="cc-btn red" id="copys" data-clipboard-action="copy" data-clipboard-text="{:sysconf('site_url')}regs/{$user.id}">复制链接</button> </li>
+        </ul>
+    </div>
+</div>
+<div class="more_gn">—— 更多精彩，敬请期待！ ——</div>
+<div class="m-actionsheet" id="J_ActionSheet">
+    <a href="javascript:;" class="actionsheet-item urls txt-left contact-bot">联系我们</a>
+    <a href="javascript:;" class="actionsheet-item urls txt-left contact-bot">官方微信：{:sysconf('site_wechat')}<span class="copy-span" id="copy" data-clipboard-action="copy" data-clipboard-text="{:sysconf('site_wechat')}">[复制]</span></a>
+    <a href="javascript:;" class="actionsheet-item ewms txt-left contact-bot">官方QQ群：{:sysconf('site_qqun')}<span class="copy-span" id="copy" data-clipboard-action="copy" data-clipboard-text="{:sysconf('site_qqun')}">[复制]</span></a>
+    <a href="javascript:;" class="actionsheet-action" id="J_Cancel">确定</a>
+</div>
+<include file="common/footer"/>
+<script type="text/javascript" src="__STATIC__/home/js/clipboard.min.js"></script>
+<script>
+    var $as = $('#J_ActionSheet');
+    $('#J_ShowActionSheet').on('click', function () {
+        $as.actionSheet('open');
+    });
+    $('#J_Cancel').on('click', function () {
+        $as.actionSheet('close');
+    });
+    var clipboard = new ClipboardJS('.copy-span');
+    clipboard.on('success', function (e) {
+        YDUI.dialog.toast("复制成功", "success", 1000);
+    });
+    $('.invite-btns').on('click',function () {
+        event.stopPropagation();
+        $('.box_warp').show();
+    })
+    $("body>*").click(function(event){
+        var _con = $('.box_info');
+        if(!_con.is(event.target) && _con.has(event.target).length === 0){
+            $('.box_warp').hide();
+        }
+    });
+    $('#open').on('click',function () {
+        location.href = "{:sysconf('site_url')}/regs/{$user.id}";
+    })
+    $('#copys').on('click',function () {
+        YDUI.dialog.toast('复制成功', 'success', 1000);
+        var url = "{:sysconf('site_url')}regs/{$user.id}";
+        var clipboard = new ClipboardJS('#copys', {
+            text: function() {
+                return url;
+            }
+        });
+    })
+
+</script>
+</body>
+</html>

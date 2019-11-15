@@ -1,0 +1,66 @@
+<include file="common/header"/>
+<title>{:sysconf('site_title')}</title>
+</head>
+<body>
+<header class="m-navbar message-bar navbar-fixed">
+    <a onclick="history.back(-1)" class="navbar-item">
+        <i class="back-ico"></i>
+    </a>
+    <div class="navbar-center">
+        <span class="navbar-title">{$title}</span>
+    </div>
+</header>
+<div class="detail-content" style="padding-top:.8rem;">
+    <h3>订单详情<span></span></h3>
+    <ul>
+        <volist name="data" id="vo">
+            <eq name="vo.type" value="yz">
+                <foreach name="vo.yz" id="content">
+                <li class="num">
+                    <div class="left">
+                        <span>{$i+$key}</span>
+                    </div>
+                    <div class="right">
+                        <h3>验证图{$key+1}：</h3>
+                        <div class="pic">
+                            <div class="remark">验证图</div>
+                            <img src="{$content}" class="pics">
+                        </div>
+                    </div>
+                </li>
+                </foreach>
+            </eq>
+            <eq name="vo.type" value="data">
+                <li class="num">
+                    <div class="left">
+                        <span>{$i}</span>
+                    </div>
+                    <div class="right">
+                        <h3>收集信息</h3>
+                        <input type="text" value="{$vo.content}" disabled class="cc-input">
+                    </div>
+                </li>
+            </eq>
+        </volist>
+    </ul>
+</div>
+<script type="text/javascript" src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
+<script src="__STATIC__/lib/ydui/js/ydui.flexible.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/ydui/js/ydui.js"></script>
+<script>
+    $('.pics').on('click',function () {
+        var img = $(this).attr('src');
+        layer.open({
+            type: 1,
+            title:'查看信息',
+            content: '<img src="' + img + '" class="max-img">'
+            ,shadeClose: true
+            ,success:function() {
+
+            }
+        })
+    })
+</script>
+</body>
+</html>
